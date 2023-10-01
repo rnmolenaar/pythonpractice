@@ -18,7 +18,7 @@ if answer.lower() == "yes":
     else:
         print("Incorrect")
 
-    answer = input("3. What is the capital of Peru: ")
+    answer = input("3. What is the capital of Peru? ")
     if answer == "Lima":
         score += 1
         print("Well done")
