@@ -25,14 +25,14 @@ if answer.lower() == "yes":
     else:
         print("Incorrect")
 
-    answer = input("4. What is the capital of Botswana: ")
+    answer = input("4. What is the capital of Botswana? ")
     if answer == "Gaborone":
         score += 1
         print("Well done")
     else:
         print("Incorrect")
 
-    answer = input("5. What is the capital of Spain: ")
+    answer = input("5. What is the capital of Spain? ")
     if answer == "Madrid":
         score += 1
         print("Well done")
