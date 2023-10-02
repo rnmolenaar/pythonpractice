@@ -1,4 +1,4 @@
-print("Enjoy the quiz")
+print("Enjoy the animal quiz")
 score = 0
 
 playing = input("Do you want to play? ")
