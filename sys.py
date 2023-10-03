@@ -1,5 +1,7 @@
 import sys
 
+#Packaged with Python. 
+
 def joke():
     print("How old are you?")
     age = int(sys.stdin.readline())
@@ -9,3 +11,5 @@ def joke():
         print("What are you talking about?")
 
 joke()
+
+sys.exit() 
