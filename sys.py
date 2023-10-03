@@ -1,5 +1,5 @@
 import sys
-print(sys.stdin.readline())
+
 def joke():
     print("How old are you?")
     age = int(sys.stdin.readline())
