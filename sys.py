@@ -1,6 +1,6 @@
 import sys
 
-#Packaged with Python. 
+#Packaged with Python. related to the Python interpreter.
 
 def joke():
     print("How old are you?")
