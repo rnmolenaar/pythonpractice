@@ -8,5 +8,5 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "TensorFlow is a module related to machine learning" 
               "SciPy is a module related to algoritms for scientific computing"
               "PyTorch is a library for irregular input data."
-              "class Skyscrapers(Buildings): here Skyscrapes is a child class of Buildings"
+              "class Skyscrapers(Buildings): here Skyscrapes is a child class of Buildings"]
   print(random.choice(python_info))
