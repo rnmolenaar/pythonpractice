@@ -12,6 +12,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "ntfy can be used to send SMS by phone", 
               "MicroPython is being used to write Python code to control hardware. There is no C necessary",
               "NumPy is a library to work with numbers in Python",
+              "Add root.mainloop() at the end to make tkinter work",
               
               }
   print(random.choice(python_info))
