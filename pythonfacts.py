@@ -9,5 +9,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "SciPy is a module related to algoritms for scientific computing"
               "PyTorch is a library for irregular input data."
               "class Skyscrapers(Buildings): here Skyscrapes is a child class of Buildings",
-              "ntfy can be used to send SMS by phone"}
+              "ntfy can be used to send SMS by phone", 
+              "MicroPython is being used to write Python code to control hardware. There is no C necessary"
+              }
   print(random.choice(python_info))
