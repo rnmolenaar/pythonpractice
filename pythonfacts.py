@@ -14,6 +14,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "NumPy is a library to work with numbers in Python",
               "Add root.mainloop() at the end to make tkinter work",
               "Pip helps install new libraries.",
+              "BeautifulSoup is a library for scraping the web",
               
               }
   print(random.choice(python_info))
