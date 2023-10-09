@@ -6,14 +6,14 @@ screen_height = 800
 
 screen = pygame.display.set_mode((screen_width, screen_height))
 
-player = pygame.circle(100,400, 60, 60)
+player = pygame.Rect((100, 400, 60, 60))
 
 run = True
 while run:
 
-    screen.fill((250, 250, 250))
+    screen.fill((240, 240, 240))
 
-    pygame.draw.circle(screen, (150, 150, 50), [30, 300], 20, 3)
+    pygame.draw.rect(screen, (150, 0, 150), player)
 
     key = pygame.key.get_pressed()
     if key[pygame.K_LEFT]  == True:
