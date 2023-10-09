@@ -17,6 +17,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "BeautifulSoup is a library for scraping the web",
                "Pandas is the most used library in Python. Data analysis",
                " __init__ method is used in object oriented programming. Called whenever an object is created from a class.",
+               "Flask is a web framework",
+               "There is a Python packages index",
                 ]
 
 print(random.choice(python_info))
