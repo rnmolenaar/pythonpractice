@@ -20,7 +20,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Flask is a web framework",
                "There is a Python packages index",
                "Post to send to the server. Can be added in html file (form tag)",
-               "
+               "Tensorflow for algorithms",
                 ]
 
 print(random.choice(python_info))
