@@ -19,6 +19,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                " __init__ method is used in object oriented programming. Called whenever an object is created from a class.",
                "Flask is a web framework",
                "There is a Python packages index",
+               "Post to send to the server. Can be added in html file (form tag)",
+               "
                 ]
 
 print(random.choice(python_info))
