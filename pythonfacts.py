@@ -6,7 +6,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                 "print(time.time()) to get local time in seconds after 1-1 1970. This is called the Epoch",
                "time.sleep()to put a pause for x in range(0, max): print(x)time.sleep(0.012)",
                "TensorFlow is a module related to machine learning",
-               "SciPy is a module related to algoritms for scientific computing",
+               "SciPy is a module related to algoritms for scientific computing","
                "PyTorch is a library for irregular input data."
                "class Skyscrapers(Buildings): here Skyscrapes is a child class of Buildings",
                "ntfy can be used to send SMS by phone",
@@ -22,7 +22,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Post to send to the server. Can be added in html file (form tag)",
                "Tensorflow for algorithms",
                "pythonanywhere.com to load up files on machine. Can use github for that",
-               
+               " list methods. append: to add to the end of a list, copy: returns a copy of the list, clear: removes all items from the list",
+                " list methods. count: counts the elements in the list, extend: adds each element from the iterable to the list",
+                " list methods. index: returns the lowest index where the element appears, insert: adds element to the index number provided",
+                " list methods. pop: removes and returns the last value or a given one, remove: removes a given object",
+               "list methods: reverse: changes the order from start to finish, sort: sorts the list.",
+               "list methods: min: calculates the minimum of all elements in the list, calculates the max",
                 ]
 
 print(random.choice(python_info))
