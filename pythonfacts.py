@@ -28,6 +28,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                 " list methods. pop: removes and returns the last value or a given one, remove: removes a given object",
                "list methods: reverse: changes the order from start to finish, sort: sorts the list.",
                "list methods: min: calculates the minimum of all elements in the list, calculates the max",
+               "dunder methods allow instances of a class to interact with the built-in functions and operators.",
+               "Event driven architectures: EDA. Split applications
                 ]
 
 print(random.choice(python_info))
