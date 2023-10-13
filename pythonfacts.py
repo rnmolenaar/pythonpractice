@@ -35,6 +35,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "square root 2 ** 0.5",
                "// is integer division",
                "assign multiple variables at once: all, at, once = 2, 3, 4",
+               "== operator to compare the values of two objects. The is operator compares the identity of two objects.",
 
                
                
