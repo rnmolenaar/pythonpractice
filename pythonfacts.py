@@ -30,7 +30,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "list methods: min: calculates the minimum of all elements in the list, calculates the max",
                "dunder methods allow instances of a class to interact with the built-in functions and operators.",
                "Event driven architectures: EDA. Split applications",
-               "function touch {New-Item -ItemType File -Name ($args[0])}"
+               "function touch {New-Item -ItemType File -Name ($args[0])}",
+               "command slash to comment",
+               "square root 2 ** 0.5",
+               "// is integer division",
+               "assign multiple variables at once: all, at, once = 2, 3, 4",
+
                
                
                 ]
