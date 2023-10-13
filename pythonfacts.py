@@ -29,7 +29,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "list methods: reverse: changes the order from start to finish, sort: sorts the list.",
                "list methods: min: calculates the minimum of all elements in the list, calculates the max",
                "dunder methods allow instances of a class to interact with the built-in functions and operators.",
-               "Event driven architectures: EDA. Split applications
+               "Event driven architectures: EDA. Split applications",
+               "function touch {New-Item -ItemType File -Name ($args[0])}"
+               
+               
                 ]
 
 print(random.choice(python_info))
