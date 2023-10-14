@@ -31,13 +31,14 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "dunder methods allow instances of a class to interact with the built-in functions and operators.",
                "Event driven architectures: EDA. Split applications",
                "function touch {New-Item -ItemType File -Name ($args[0])}",
-               "command slash to comment",
+               "command slash to comment or remove comment",
                "square root 2 ** 0.5",
                "// is integer division",
                "assign multiple variables at once: all, at, once = 2, 3, 4",
                "== operator to compare the values of two objects. The is operator compares the identity of two objects.",
                "Dynamic typing= types can change easily in Python",
                " 2 ** 3 ** 2 is hetzelfde als 2 ** (3 ** 2)",
+               "
                
 
                
