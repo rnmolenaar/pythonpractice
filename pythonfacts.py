@@ -38,6 +38,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "== operator to compare the values of two objects. The is operator compares the identity of two objects.",
                "Dynamic typing= types can change easily in Python",
                " 2 ** 3 ** 2 is hetzelfde als 2 ** (3 ** 2)",
+               " \n new line",
                "
                
 
