@@ -40,6 +40,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                " 2 ** 3 ** 2 is hetzelfde als 2 ** (3 ** 2)",
                " \n new line",
                "interpolate = like an f string. you make something part of the string",
+               "if num % 2 != 0:",
                
                
 
