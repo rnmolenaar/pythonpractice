@@ -41,6 +41,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                " \n new line",
                "interpolate = like an f string. you make something part of the string",
                "if num % 2 != 0:",
+               "naturally false things: 0, false conditional checks, empty objects, empty strings, None",
+               
                
                
 
