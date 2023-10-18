@@ -10,7 +10,6 @@ def counting_time(max):
 
 counting_time(1718)
 
-
 # to put a pause in
 
 import time
@@ -24,6 +23,5 @@ def counting_time(max):
     t2 = time.time()
 
     print("it took %s seconds" % (t2 - t1))
-
 
 counting_time(171)
