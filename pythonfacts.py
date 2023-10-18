@@ -42,6 +42,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "interpolate = like an f string. you make something part of the string",
                "if num % 2 != 0:",
                "naturally false things: 0, false conditional checks, empty objects, empty strings, None",
+               "if variable: then it checks if there is something in it and therefore truthy",
+               "lexigraphical ordering a > b",
+               
                
                
                
