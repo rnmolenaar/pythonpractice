@@ -45,6 +45,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "if variable: then it checks if there is something in it and therefore truthy",
                "lexigraphical ordering a > b",
                "Difference between is and == is that == checks if the values are the same. Is checks if it is the same thing in memory",
+               "Control 0D to duplicate in Pycharm",
+               
                
                
                
