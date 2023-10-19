@@ -12,6 +12,7 @@ if answer.lower() == "yes":
         print("Incorrect")
 
     answer = input("2. What is the capital of Indonesia? ")
+    
     if answer == "Jakarta":
         score += 1
         print("Well done")
