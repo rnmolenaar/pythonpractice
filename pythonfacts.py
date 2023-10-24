@@ -48,6 +48,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Control 0D to duplicate in Pycharm",
                'random.randint(0, 100) if only random is imported. If randint specifically, no need for random",
                "input(something with quotation marks ).lower()",
+               "ranges used with for loops only it seems",
+               "If you do range(7) it will give you the numbers 0-6",
+               
+               
                
 
                
