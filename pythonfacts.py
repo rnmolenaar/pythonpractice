@@ -3,11 +3,11 @@ import random
 python_info = ["With random.choice(listname), you can pick a random item from a list",
                "With shuffle, you can shuffle a list",
                "if you want to know what version of Python you are using, use print('sys.version')",
-                "print(time.time()) to get local time in seconds after 1-1 1970. This is called the Epoch",
+               "print(time.time()) to get local time in seconds after 1-1 1970. This is called the Epoch",
                "time.sleep()to put a pause for x in range(0, max): print(x)time.sleep(0.012)",
                "TensorFlow is a module related to machine learning",
-               "SciPy is a module related to algoritms for scientific computing","
-               "PyTorch is a library for irregular input data."
+               "SciPy is a module related to algoritms for scientific computing",
+               "PyTorch is a library for irregular input data.",
                "class Skyscrapers(Buildings): here Skyscrapes is a child class of Buildings",
                "ntfy can be used to send SMS by phone",
                "MicroPython is being used to write Python code to control hardware. There is no C necessary",
@@ -23,9 +23,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Tensorflow for algorithms",
                "pythonanywhere.com to load up files on machine. Can use github for that",
                " list methods. append: to add to the end of a list, copy: returns a copy of the list, clear: removes all items from the list",
-                " list methods. count: counts the elements in the list, extend: adds each element from the iterable to the list",
-                " list methods. index: returns the lowest index where the element appears, insert: adds element to the index number provided",
-                " list methods. pop: removes and returns the last value or a given one, remove: removes a given object",
+               " list methods. count: counts the elements in the list, extend: adds each element from the iterable to the list",
+               " list methods. index: returns the lowest index where the element appears, insert: adds element to the index number provided",
+               " list methods. pop: removes and returns the last value or a given one, remove: removes a given object",
                "list methods: reverse: changes the order from start to finish, sort: sorts the list.",
                "list methods: min: calculates the minimum of all elements in the list, calculates the max",
                "dunder methods allow instances of a class to interact with the built-in functions and operators.",
@@ -46,22 +46,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "lexigraphical ordering a > b",
                "Difference between is and == is that == checks if the values are the same. Is checks if it is the same thing in memory",
                "Control 0D to duplicate in Pycharm",
-               'random.randint(0, 100) if only random is imported. If randint specifically, no need for random",
+               "random.randint(0, 100) if only random is imported. If randint specifically, no need for random",
                "input(something with quotation marks ).lower()",
                "ranges used with for loops only it seems",
                "If you do range(7) it will give you the numbers 0-6",
-               
-               
-               
+               "anything you can do with a for look, you can do with a while loop, but not the other way around",
 
-               
-               
-               
-               
-               
-
-               
-               
-                ]
+               ]
 
 print(random.choice(python_info))
