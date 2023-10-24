@@ -1,5 +1,6 @@
 import random
 
+#make a dice game
 def dice_roll():
     lowest = 1
     highest = 6
