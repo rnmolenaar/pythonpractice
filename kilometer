@@ -3,3 +3,11 @@ km = input()
 miles = float(km)/1.609
 miles = round(miles, 1)
 print(f"That is equal to {miles} miles")
+
+#repeater
+
+repeat = input("How many apples do you want? ")
+repeat = int(repeat)
+
+for apple in range(repeat):
+    print('Here is an apple!')
