@@ -53,7 +53,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "anything you can do with a for look, you can do with a while loop, but not the other way around",
                "While loops run, while a condition is truthy",
                "With a while loop, you need to first declare a valuable",
-               " 
+               "Selenium is used for automated test cases",
+               
 
                ]
 
