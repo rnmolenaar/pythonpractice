@@ -54,6 +54,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "While loops run, while a condition is truthy",
                "With a while loop, you need to first declare a valuable",
                "Selenium is used for automated test cases",
+               "randint is inclusive. Ranges are exclusive the last number",
                
 
                ]
