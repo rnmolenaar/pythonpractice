@@ -10,6 +10,7 @@ if answer.lower() == "yes":
         print("Well done")
     else:
         print("Incorrect")
+        
 
     answer = input("2. What is the capital of Indonesia? ")
     
