@@ -55,7 +55,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "With a while loop, you need to first declare a valuable",
                "Selenium is used for automated test cases",
                "randint is inclusive. Ranges are exclusive the last number",
-               "You can convert a range into a list",
+               "You can convert a range into a list: list(range(1, 5))",
                
 
                ]
