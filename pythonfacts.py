@@ -51,6 +51,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "random.randint(0, 100) if only random is imported. If randint specifically, no need for random",
                "input(something with quotation marks ).lower()",
                "ranges used with for loops only it seems",
+               "list.index("Temenos") specifies what index Temenos has",
                "If you do range(7) it will give you the numbers 0-6",
                "anything you can do with a for look, you can do with a while loop, but not the other way around",
                "While loops run, while a condition is truthy",
