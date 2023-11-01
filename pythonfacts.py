@@ -57,7 +57,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "randint is inclusive. Ranges are exclusive the last number",
                "You can convert a range into a list: list(range(1, 5))",
                "If you want to see if something is in a list, do 'green' in colors. It will give True or False",
-               ""
+               "",
                
 
                ]
