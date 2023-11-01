@@ -26,6 +26,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                " list methods. count: counts the elements in the list, extend: adds each element from the iterable to the list",
                " list methods. index: returns the lowest index where the element appears, insert: adds element to the index number provided",
                " list methods. pop: removes and returns the last value or a given one, remove: removes a given object",
+               "list method pop: if no index is specified, the last is removed",
                "list methods: reverse: changes the order from start to finish, sort: sorts the list.",
                "list methods: min: calculates the minimum of all elements in the list, calculates the max",
                "dunder methods allow instances of a class to interact with the built-in functions and operators.",
