@@ -23,9 +23,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Tensorflow for algorithms",
                "pythonanywhere.com to load up files on machine. Can use github for that",
                " list methods. append: to add to the end of a list, copy: returns a copy of the list, clear: removes all items from the list",
-               " list methods. count: counts the elements in the list, extend: adds each element from the iterable to the list",
+               " list methods. count: counts the elements in the list, extend: you can add more than one to a list",
                " list methods. index: returns the lowest index where the element appears, insert: adds element to the index number provided",
                " list methods. pop: removes and returns the last value or a given one",
+               "list method index: you can specify where in the list you want to look. list,index("word", 2, 5)
                "list method: remove: you name the actual name of what is in the list and the first one of that is removed",
                "list method pop: if no index is specified, the last is removed",
                "list methods: reverse: changes the order from start to finish, sort: sorts the list.",
