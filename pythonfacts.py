@@ -23,7 +23,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Tensorflow for algorithms",
                "pythonanywhere.com to load up files on machine. Can use github for that",
                " list methods. append: to add to the end of a list, copy: returns a copy of the list, clear: removes all items from the list",
-               " list methods. count: counts the elements in the list, extend: you can add more than one to a list",
+               " list methods. count: counts how many times an element is in the list, extend: you can add more than one to a list",
                " list methods. index: returns the lowest index where the element appears, insert: adds element to the index number provided",
                " list methods. pop: removes and returns the last value or a given one",
                "list method index: you can specify where in the list you want to look. list,index("word", 2, 5)
@@ -31,6 +31,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "list method pop: if no index is specified, the last is removed",
                "list methods: reverse: changes the order from start to finish, sort: sorts the list.",
                "list methods: min: calculates the minimum of all elements in the list, calculates the max",
+               "string method: join is for strings but used to convert lists to strings",
                "dunder methods allow instances of a class to interact with the built-in functions and operators.",
                "Event driven architectures: EDA. Split applications",
                "function touch {New-Item -ItemType File -Name ($args[0])}",
