@@ -13,7 +13,7 @@ while run:
 
     screen.fill((240, 240, 240))
 
-    pygame.draw.rect(screen, (150, 0, 150), player)
+    pygame.draw.rect(screen, (50, 0, 50), player)
 
     key = pygame.key.get_pressed()
     if key[pygame.K_LEFT]  == True:
