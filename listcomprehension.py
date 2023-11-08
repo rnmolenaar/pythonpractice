@@ -10,3 +10,6 @@ string_nums = [str(num) for num in nums]
 print(string_nums)
 
 
+#other example
+
+Dividableby12 = [num for num in range(1,101) if val % 12 == 0]
