@@ -72,7 +72,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                " an empty string, empty list and 0 is falsy".
                "You can use conditionals with list comprehension",
               "answer = [flower[0] for flower in ["Rose", "Lily", "Primsose"]] list comprehension",
-              "answer = [letter for letter in 'partook' if letter not in 'aeiou'] "
+              "answer = [letter for letter in 'partook' if letter not in 'aeiou'] to make a list with the consonants of that word ",
+              
               "
               
 
