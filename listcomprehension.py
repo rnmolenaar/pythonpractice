@@ -13,3 +13,6 @@ print(string_nums)
 #other example
 
 Dividableby12 = [num for num in range(1,101) if val % 12 == 0]
+
+# no vowels
+answer = [letter for letter in 'partook' if letter not in 'aeiou'] 
