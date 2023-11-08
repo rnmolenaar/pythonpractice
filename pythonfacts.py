@@ -68,6 +68,11 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "swapping is possible in lists", 
                "You can create a new list from another list: [x*10 for x in nums].",
                "List comprehension: to create a new list based on the values of an existing list",
+               "there is a boolean function: bool()",
+               " an empty string, empty list and 0 is falsy".
+               "You can use conditionals with list comprehension",
+
+               
                
               
                
