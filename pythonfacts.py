@@ -64,7 +64,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "If you want to see if something is in a list, do 'green' in colors. It will give True or False",
                " ' '. join(listname) joins the words of listname into a string with what's before it as what is put between them",
                "Slicing. [] are used for this. There are three elements: list[start:end:step",
-               "",
+               " 'wordddddddds'[::2] = wrddddds] one gets removed constantly",
                
                
                
