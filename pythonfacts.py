@@ -67,6 +67,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                " 'wordddddddds'[::2] = wrddddds] one gets removed constantly",
                "swapping is possible in lists", 
                "You can create a new list from another list: [x*10 for x in nums].",
+               "List comprehension: to create a new list based on the values of an existing list",
+               
               
                
                
