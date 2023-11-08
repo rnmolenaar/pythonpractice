@@ -71,6 +71,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "there is a boolean function: bool()",
                " an empty string, empty list and 0 is falsy".
                "You can use conditionals with list comprehension",
+              "answer = [flower[0] for flower in ["Rose", "Lily", "Primsose"]] list comprehension",
+              
 
                
                
