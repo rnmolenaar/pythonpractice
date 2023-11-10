@@ -74,7 +74,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "answer = [flower[0] for flower in ["Rose", "Lily", "Primsose"]] list comprehension",
               "answer = [letter for letter in 'partook' if letter not in 'aeiou'] to make a list with the consonants of that word ",              
               "If you want to access a specific item in a nested list, do [9][1]",
-              "lists = [[l for l in range(0,30)] for num in range(0,30)] outcome [[0, 1, 2], [0, 1, 2], [0, 1, 2]]"
+              "lists = [[l for l in range(0,30)] for num in range(0,30)] outcome [[0, 1, 2], [0, 1, 2], [0, 1, 2]] note the ]",
+              
               
 
                
