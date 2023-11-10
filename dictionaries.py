@@ -10,3 +10,11 @@ person = {
 }
 
 full_name = person["first"] + " " + person["last"]
+
+
+# running a for loop on the values in a dictionary. You only get the values with this
+
+for value in dictionary.values():
+    print(value) 
+
+# running a for loop on items
