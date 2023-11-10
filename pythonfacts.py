@@ -75,6 +75,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "answer = [letter for letter in 'partook' if letter not in 'aeiou'] to make a list with the consonants of that word ",              
               "If you want to access a specific item in a nested list, do [9][1]",
               "lists = [[l for l in range(0,30)] for num in range(0,30)] outcome [[0, 1, 2], [0, 1, 2], [0, 1, 2]] note the ]",
+              " .values() for dictionary. You can run a for loop on that to get all the info out",
+              "if you want to add the total of values in a dictionary: total_gifts = sum(gifts.values())",
               
               
 
