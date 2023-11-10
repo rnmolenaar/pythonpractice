@@ -17,4 +17,9 @@ full_name = person["first"] + " " + person["last"]
 for value in dictionary.values():
     print(value) 
 
-# running a for loop on items
+# running a for loop on items. You get both key and value in a tuple.
+
+    
+for k, v in dictionary.items():
+    print(f:"key is {k} and value is {v}")
+    
