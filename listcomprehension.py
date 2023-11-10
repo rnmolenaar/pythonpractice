@@ -21,3 +21,5 @@ for list2 in nested_list:
   for val in list2:
     print(val)
 
+#
+answer = [[l for l in range(0,30)] for num in range(0,30)]
