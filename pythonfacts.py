@@ -79,7 +79,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "if you want to add the total of values in a dictionary: total_gifts = sum(gifts.values())",              
               "dict: if you want to test for the existence of keys, use in. Values is in dictionary.values()",
               "dict methods: clear empties the dict. copy makes a copy of the dict.".
-              "dict method: fromkeys {}.fromkeys() if you want to set every property to none",
+              "dict method: fromkeys {}.fromkeys() if you want to set every property to whatever you want it to, like unknown. You can set a range",
+              "dict method: gets a key from a dict, but retrieves none instead of an error if it isn't there", 
+              
+              "
 
                
                
