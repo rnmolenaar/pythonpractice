@@ -81,6 +81,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "dict methods: clear empties the dict. copy makes a copy of the dict.".
               "dict method: fromkeys {}.fromkeys() if you want to set every property to whatever you want it to. You can set a range",
               "dict method: gets a key from a dict, but retrieves none instead of an error if it isn't there", 
+              "dict method: pop: you have to provide the key to remove key-value pair. popitem randomly removes something. No key needed", 
+              "dict method: update will add to another dictionary which can already have key-value pairs. Doesn't remove anything",
+              "to add a key value pair to a dictionary: dict['key_name'] = 'Value'",
+              
               
               "
 
