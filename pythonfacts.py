@@ -76,9 +76,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "If you want to access a specific item in a nested list, do [9][1]",
               "lists = [[l for l in range(0,30)] for num in range(0,30)] outcome [[0, 1, 2], [0, 1, 2], [0, 1, 2]] note the ]",
               " .values() for dictionary. You can run a for loop on that to get all the info out",
-              "if you want to add the total of values in a dictionary: total_gifts = sum(gifts.values())",
-              
-              
+              "if you want to add the total of values in a dictionary: total_gifts = sum(gifts.values())",              
+              "dict: if you want to test for the existence of keys, use in. Values is in dictionary.values()",
+              "dict methods: clear empties the dict. copy makes a copy of the dict.".
+              "dict method: fromkeys {}.fromkeys() if you want to set every property to none",
 
                
                
