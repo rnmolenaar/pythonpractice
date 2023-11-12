@@ -41,4 +41,8 @@ for gift in gifts.values():
 
 total_gifts = sum(gifts.values())
 
+# fromkeys method
+start = dict.fromkeys(dictionary_name, 0)
+
+
     
