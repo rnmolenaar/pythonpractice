@@ -44,5 +44,6 @@ total_gifts = sum(gifts.values())
 # fromkeys method
 start = dict.fromkeys(dictionary_name, 0)
 
-
+#dictionary comprehension
+{num:("even" if num % 2 ==0 else "odd") for num in range(0, 20)
     
