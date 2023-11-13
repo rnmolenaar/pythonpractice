@@ -102,6 +102,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "set math: | group two sets together. & look at those who are in both sets",
                "Tuples are ordered but sets are not",
                "DRY: dont' repeat yourself. functions help with that",
+               "return exists the function. it outputs what come after return",
+               "Call stack is a list of all you have to do with your code",
+               
 
                ]
 
