@@ -105,6 +105,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "return exists the function. it outputs what come after return",
                "Call stack is a list of all you have to do with your code",
                "parameter is in the declaration of the function. The argument is what's passed in when calling the function",
+               "You can add a default in the parameter if no argument is given: function(parameter1, parameter2= 3)"
+               "The default parameter needs to be at the end (or all parameters need one",
                
                
 
