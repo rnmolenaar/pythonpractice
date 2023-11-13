@@ -59,3 +59,7 @@ answer = { list1[i]: list2[i] for i in range(0,3)}
 animal = [["name", "Len"], ["sort", "cat"], ["age", "2"]]
 
 answer = {i[0]: i[1] for i in animal}
+
+#Difference between dictionary comprehension and set comprehension
+{x:**2 for x in range(10}
+{x**2 for x in ranger(10)
