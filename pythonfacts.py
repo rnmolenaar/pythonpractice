@@ -85,6 +85,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "dict method: update will add to another dictionary which can already have key-value pairs. Doesn't remove anything",
               "to add a key value pair to a dictionary: dict['key_name'] = 'Value'",
               "For dictionary comprehension syntax: {   : for .. in...}   ",
+              "parity refers to whether a number is odd or even",
+              "zip function is used to zip two dictionaries together into one",
 
                
                
