@@ -104,6 +104,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "DRY: dont' repeat yourself. functions help with that",
                "return exists the function. it outputs what come after return",
                "Call stack is a list of all you have to do with your code",
+               "parameter is in the declaration of the function. The argument is what's passed in when calling the function",
+               
                
 
                ]
