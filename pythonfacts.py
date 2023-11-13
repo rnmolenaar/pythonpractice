@@ -100,6 +100,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "set method: discard is you don't want to worry about errors if something isn't there. It removes something",
                "set method: copy. copies. Clear: removes everything.",
                "set math: | group two sets together. & look at those who are in both sets",
+               "Tuples are ordered but sets are not",
 
                ]
 
