@@ -53,3 +53,9 @@ start = dict.fromkeys(dictionary_name, 0)
 list2 = ["Amsterdam", "Netherlands", "Europe"]
 
 answer = { list1[i]: list2[i] for i in range(0,3)}
+
+#dict comprehension 2
+
+animal = [["name", "Len"], ["sort", "cat"], ["age", "2"]]
+
+answer = {i[0]: i[1] for i in animal}
