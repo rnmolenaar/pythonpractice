@@ -28,6 +28,9 @@ for k, v in dictionary.items():
 
 gifts = dict(Lily=2.0, Mina=8.9, Pat=12.0, Lionel=9.5, Sile=15.0)
 
+
+
+
 total_gifts = 0
 
 for gift in gifts.values():
@@ -63,3 +66,11 @@ answer = {i[0]: i[1] for i in animal}
 #Difference between dictionary comprehension and set comprehension
 {x:**2 for x in range(10}
 {x**2 for x in ranger(10)
+
+
+ # dictionary comprehension
+
+def letter_count(string):
+    return {letter: string.count(letter) for letter in string}
+
+print(letter_count("I love Python"))
