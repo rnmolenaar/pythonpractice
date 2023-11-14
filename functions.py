@@ -37,4 +37,21 @@ def count_m(word):
              return days[num-1]
         return None
 
+# check if a list is empty
+
+def last_element(lst):
+    if lst:
+        return lst[-1]
+    return None
+
+# check how often one appears in the other. See it as string.count(letter)
+
+
+def letter_count(string, letter):
+    return string.lower().count(letter.lower())
+    
+
+
+
+
 
