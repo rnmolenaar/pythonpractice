@@ -22,3 +22,19 @@ def count_m(word):
         if char == 'm':
             count += 1
     return count
+
+# function with two parameters
+
+    def multiply(a,b):
+        return a*b
+
+# 
+
+    def weekday(num):
+        days = ["Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"]
+      
+        if num > 0 and num <= len(days):
+             return days[num-1]
+        return None
+
+
