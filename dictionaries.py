@@ -68,7 +68,7 @@ answer = {i[0]: i[1] for i in animal}
 {x**2 for x in ranger(10)
 
 
- # dictionary comprehension
+ # dictionary comprehension within function. Make a dict with how many times a letter is found in a string
 
 def letter_count(string):
     return {letter: string.count(letter) for letter in string}
