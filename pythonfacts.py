@@ -109,7 +109,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "The default parameter needs to be at the end (or all parameters need one",
                "Keyword arguments in a function allow you to call the different parameters up in another order. You need to know the keyword name",
                "Scope: variables are not always available everywhere",
-               "put global in the function: global variable_name to give the function access to it
+               "put global in the function: global variable_name to give the function access to it", 
+               "Docstrings: triple quotes used in a function to explain what it does",
+               
                
                
                
