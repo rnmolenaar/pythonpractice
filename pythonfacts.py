@@ -107,6 +107,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "parameter is in the declaration of the function. The argument is what's passed in when calling the function",
                "You can add a default in the parameter if no argument is given: function(parameter1, parameter2= 3)"
                "The default parameter needs to be at the end (or all parameters need one",
+               "Keyword arguments in a function allow you to call the different parameters up in another order. You need to know the keyword name",
+               "Scope: variables are not always available everywhere",
+               "put global in the function: global variable_name to give the function access to it
+               
                
                
 
