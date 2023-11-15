@@ -115,6 +115,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "the 4 primitive data structures: integers, float, string, and boolean",
                " If you want to count how often something appears in a list: return lst.count(searchTerm)",
                "args used to pass in multiple arguments. You don't have to specify them when defining the function",
+               "if you use a return in a conditional at the end, you don't need an else for that last possibility",
+               "kwargs ** stores them in a dictionary",
                
                
                
