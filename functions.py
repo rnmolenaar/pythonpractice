@@ -58,6 +58,13 @@ def palindrome_check(string):
 def frequency(lst, searchTerm):
    return lst.count(searchTerm)
 
+# args You need the star to do it. Args is a tuple
+
+def AnyFunction(*args):
+    total = 0
+    for num in args:
+        total += num
+    return total
 
 
 
