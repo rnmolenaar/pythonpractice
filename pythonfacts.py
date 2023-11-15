@@ -111,6 +111,11 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Scope: variables are not always available everywhere",
                "put global in the function: global variable_name to give the function access to it", 
                "Docstrings: triple quotes used inside a function to explain what it does",
+               "replace function let's you replace a string with something else. stripped = string.replace(' ', '').lower()",
+               "the 4 primitive data structures: integers, float, string, and boolean",
+               " If you want to count how often something appears in a list: return lst.count(searchTerm)",
+               
+               
                
                
                
