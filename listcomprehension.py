@@ -27,4 +27,12 @@ lists = [[l for l in range(0,30)] for num in range(0,30)]
 # if you want to use it with a function
 def even_numbers():
     return [x for x in range(1,40) if x%2==0]
+
+#check if something is in both lists
+
+
+# flesh out intersection pleaseeeee
+def check_two_lists(list1, list2):
+    return[val for val in list 1 if val in list2]
+    
     
