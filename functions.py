@@ -65,6 +65,18 @@ def AnyFunction(*args):
     for num in args:
         total += num
     return total
+    
+# if you want to make a function to capitalize the first letter of a string. The right part is to add the rest of the string
+def capitalize_first(string):
+    return string[:1].upper() + string[1:]
+
+# if you want to only print the truthy values in a list
+
+def truthyList(lst):
+    return [val for val in lst if val]
+
+print(truthyList([1, 0, True, False]))
+
 
 
 
