@@ -89,7 +89,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "zip function is used to zip two dictionaries together into one",
                "A list of pairs can be turned into a dictionary using dict() dictionary1 = dict(listname)",
                "chr() function returns a string when entering ASCII code",
-               "tuple is immutable. tuple is faster",
+               "tuple is immutable. tuple is faster. there is always a komma (3) is not a tuple. (3,) is a tuple",
                "dynamically typed language is when the type of a variable is checked during run time",
                "Tuples can be a key in dictionary. Like with coordinates of a location {(coord,coord)Amsterdam Zoo} Can't use a list as a key",
                "Tuple method: count. the number of times a value is in a tuple. tuple.count('happy')",
@@ -117,6 +117,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "args used to pass in multiple arguments. You don't have to specify them when defining the function",
                "if you use a return in a conditional at the end, you don't need an else for that last possibility",
                "kwargs ** stores them in a dictionary",
+               "Parameter ordering: parameters, *args, default paramters, **kwargs",
                
                
                
