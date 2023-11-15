@@ -121,6 +121,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "Parameter ordering: parameters, *args, default paramters, **kwargs",
                "If you want to insert a list in args and use the individual numbers, put in *list when calling the function",
                "if you want to make a function with caps for first letter:  return string[:1].upper() + string[1:]",
+               "lambda is like a function that has no name. Can only be one line. aka Anonymous functions. Automatically returned.",
+               "lambda a, b: a + b.(the first a and b are parameters)",
+               "lambda is used when you want to pass a function into a function", 
                
 
 
