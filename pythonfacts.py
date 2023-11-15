@@ -1,6 +1,7 @@
 import random
 
 python_info = ["With random.choice(listname), you can pick a random item from a list",
+               "print(string_name.upper()",
                "With shuffle, you can shuffle a list",
                "if you want to know what version of Python you are using, use print('sys.version')",
                "print(time.time()) to get local time in seconds after 1-1 1970. This is called the Epoch",
@@ -118,7 +119,13 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "if you use a return in a conditional at the end, you don't need an else for that last possibility",
                "kwargs ** stores them in a dictionary",
                "Parameter ordering: parameters, *args, default paramters, **kwargs",
+               "If you want to insert a list in args and use the individual numbers, put in *list when calling the function",
+               "if you want to make a function with caps for first letter:  return string[:1].upper() + string[1:]",
                
+
+
+   
+    
                
                
                
