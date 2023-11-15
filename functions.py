@@ -46,11 +46,13 @@ def last_element(lst):
 
 # check how often one appears in the other. See it as string.count(letter)
 
-
 def letter_count(string, letter):
     return string.lower().count(letter.lower())
     
+# functions and slicing from backwards
 
+def palindrome_check(string):
+    return string == string[::-1]
 
 
 
