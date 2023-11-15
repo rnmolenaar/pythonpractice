@@ -54,6 +54,10 @@ def letter_count(string, letter):
 def palindrome_check(string):
     return string == string[::-1]
 
+# Create a function to see how often something comes up in a list
+def frequency(lst, searchTerm):
+   return lst.count(searchTerm)
+
 
 
 
