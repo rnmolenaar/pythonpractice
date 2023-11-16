@@ -77,6 +77,14 @@ def truthyList(lst):
 
 print(truthyList([1, 0, True, False]))
 
+#lambda and tkinter. Lambda saves you from having to define functions for each buttons that are not used anywhere else
+
+command=lambda: print("clicked")
+
+# lambda and cube
+
+cube = lambda num: num ** 3
+
 
 
 
