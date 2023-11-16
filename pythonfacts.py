@@ -128,6 +128,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "map is a build-in function that can be used with lambdas. Two arguments: iterable and a function",
                "map runs the lambda over the iterable and returns a map object. This can be converted into another data structure",
                " double_it = map(lambda x: x*2, nums). Turn into a list by list(double_it)",
+               "filter 
                
   
 
