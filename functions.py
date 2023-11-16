@@ -77,7 +77,7 @@ def truthyList(lst):
 
 print(truthyList([1, 0, True, False]))
 
-#lambda and tkinter. Lambda saves you from having to define functions for each buttons that are not used anywhere else
+#lambda and tkinter. Lambda saves you from having to define functions for each button that are not used anywhere else
 
 command=lambda: print("clicked")
 
@@ -85,6 +85,20 @@ command=lambda: print("clicked")
 
 cube = lambda num: num ** 3
 
+#map to make a list with all uppercases of another list
 
+animals = ["cat", "dog", "tarantula"]
 
+animals_uppercase = map(lambda species: species.upper(), animals)
+
+list(animals_uppercase)
+
+#lambda: have a list of numbers and deduct 1 from each number
+
+def decrement_list(lst):
+    return list(map(lambda n: n - 1, lst))
+
+happy = [1, 2, 5, 7]
+
+print(decrement_list(happy))
 
