@@ -4,6 +4,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "print(string_name.upper()",
                "With shuffle, you can shuffle a list",
                "if you want to know what version of Python you are using, use print('sys.version')",
+               "Iterable: lists, strings, dictionaries, sets, tuples: something that can be iterated over",
                "print(time.time()) to get local time in seconds after 1-1 1970. This is called the Epoch",
                "time.sleep()to put a pause for x in range(0, max): print(x)time.sleep(0.012)",
                "TensorFlow is a module related to machine learning",
@@ -124,8 +125,11 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "lambda is like a function that has no name. Can only be one line. aka Anonymous functions. Automatically returned.",
                "lambda a, b: a + b.(the first a and b are parameters)",
                "lambda is used when you want to pass a function into a function", 
+               "map is a build-in function that can be used with lambdas. Two arguments: iterable and a function",
+               "map runs the lambda over the iterable and returns a map object. This can be converted into another data structure",
+               " double_it = map(lambda x: x*2, nums). Turn into a list by list(double_it)",
                
-
+  
 
    
     
