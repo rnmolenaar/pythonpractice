@@ -34,5 +34,12 @@ def even_numbers():
 # flesh out intersection pleaseeeee
 def check_two_lists(list1, list2):
     return[val for val in list 1 if val in list2]
+
+# To check if all are strings in a list
+
+def all_strings():
     
-    
+    return all([type(l) == str for l in lst])
+  
+   
+   
