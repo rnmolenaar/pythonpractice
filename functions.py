@@ -102,3 +102,9 @@ happy = [1, 2, 5, 7]
 
 print(decrement_list(happy))
 
+# If you want to check if all items in a list start with a certain letter
+
+all([name[0]=="E" for name in first_names])
+
+
+
