@@ -129,6 +129,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "map runs the lambda over the iterable and returns a map object. This can be converted into another data structure",
                " double_it = map(lambda x: x*2, nums). Turn into a list by list(double_it)",
                "build in function all(): returns True if everything in the iterable is truthy or empty.",
+               "Generator expressions (less memory) or list comprehensions. GE when you iterate once. LC when you want to store the result",
                
   
 
