@@ -130,7 +130,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                " double_it = map(lambda x: x*2, nums). Turn into a list by list(double_it)",
                "build in function all(): returns True if everything in the iterable is truthy or empty.",
                "Generator expressions (less memory) or list comprehensions. GE when you iterate once. LC when you want to store the result",
-               
+               "sorted is a buildin function.makes a copy and doesn't change the original like the .sort() method for lists",
+               "You can change the direction for sorted() by setting reverse=True
   
 
    
