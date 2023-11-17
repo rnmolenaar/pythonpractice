@@ -81,7 +81,7 @@ print(truthyList([1, 0, True, False]))
 
 command=lambda: print("clicked")
 
-# lambda and cube
+# lambda and cubing numbers
 
 cube = lambda num: num ** 3
 
@@ -105,6 +105,8 @@ print(decrement_list(happy))
 # If you want to check if all items in a list start with a certain letter
 
 all([name[0]=="E" for name in first_names])
+
+#
 
 
 
