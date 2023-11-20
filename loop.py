@@ -11,6 +11,8 @@ import random
 random_number = random.randint(1, 20)
 guess = None
 
+#to guess a random number
+
 while guess != random_number:
     guess = input("Guess a number ")
     guess = int(guess)
