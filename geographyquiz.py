@@ -1,3 +1,5 @@
+# Making a geography test with several questions
+
 print("Welcome to the geography quiz")
 
 answer = input("Are you ready to start? (yes/no): ")
