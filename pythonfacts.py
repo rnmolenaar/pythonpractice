@@ -1,6 +1,7 @@
 import random
 
 python_info = ["With random.choice(listname), you can pick a random item from a list",
+               "The Zen of Python",
                "print(string_name.upper()",
                "With shuffle, you can shuffle a list",
                "if you want to know what version of Python you are using, use print('sys.version')",
