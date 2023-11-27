@@ -120,6 +120,7 @@ def minmax(nums):
 nums = (12, 123, 554, 1, 455, 9)
 
 print(minmax(nums))
-    
+
+# len 
 
 
