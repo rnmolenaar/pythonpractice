@@ -135,6 +135,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "You can change the direction for sorted() by setting reverse=True",
                "To use emojis, you can install the emoji module",
                "There is a Wikipedia module',
+               "sorted() reverse= True to do it backwards, key= to do it with a specific keyword in a dictionary",
   
 
    
