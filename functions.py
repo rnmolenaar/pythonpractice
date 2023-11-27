@@ -106,7 +106,7 @@ print(decrement_list(happy))
 
 all([name[0]=="E" for name in first_names])
 
-# to sort numbers in a list or tuple 
+# to sort numbers in a list or tuple. It creates a copy and the original stays the same
 
 numbers_to_sort = [4, 2, 17, 1817, 3]
 
