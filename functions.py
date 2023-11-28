@@ -121,6 +121,13 @@ nums = (12, 123, 554, 1, 455, 9)
 
 print(minmax(nums))
 
-# len 
+# max + abs
+def max_number(nums):
+    return max(abs(num) for num in nums)
+
+betra = [23, -38373, 17, 1]
+
+print(max_magnitude(betra))
+
 
 
