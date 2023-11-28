@@ -144,6 +144,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
               "Sum: the sum of all plus the start. Start by default is 0: sum([1, 4, 5], 12) 12 is the start here", 
 " ''.join(sequence) is a fast way to concotenate a series of iterables",
 " round() to round up. If you want it to a certain decimal, specify that: round(6.7262, 2)",
+"Zip function: pairs up the first two numbers from two lists, then the second ones etc with a ",
+"The opposite of zip is when you do (zip(*zipped_list)). It will unzip them because of the *),
+
 
 
   
