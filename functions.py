@@ -135,3 +135,12 @@ def even_numbers(*args):
     return sum(arg for arg in args if arg % 2 == 0 )
 
 print(even_numbers(23, -38373, 12, 1))
+
+# args + sum + type
+
+def sum_floats(*args):
+    return sum(arg for arg in args if type(arg) == float)
+
+print(sum_floats(2, 76, 82.0, 5.0))
+
+
