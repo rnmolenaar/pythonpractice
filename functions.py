@@ -129,5 +129,9 @@ betra = [23, -38373, 17, 1]
 
 print(max_magnitude(betra))
 
+# args + sum
 
+def even_numbers(*args):
+    return sum(arg for arg in args if arg % 2 == 0 )
 
+print(even_numbers(23, -38373, 12, 1))
