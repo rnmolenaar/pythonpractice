@@ -142,7 +142,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "abs: returns the absolute value of a number. Negative numbers turn into positive ones", 
               "fabs treats everything as a float. Need the math module", 
               "Sum: the sum of all plus the start. Start by default is 0: sum([1, 4, 5], 12) 12 is the start here", 
-
+" ''.join(sequence) is a fast way to concotenate a series of iterables",
+" round() to round up. If you want it to a certain decimal, specify that: round(6.7262, 2)",
 
 
   
