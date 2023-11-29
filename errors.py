@@ -21,10 +21,13 @@ print(get(dictionary, "name"))
 def divide(a, b):
   try:
     result = a/b
-  except TypeError: 
-    print("Use ints of floats"
-  except ZeroDivisionError:
+  except TypeError:
+    print("Use ints or floats")
+  except ZeroDivisionError as err:
     print("You cannot divide by 0")
+    print(err)
   else:
-    print(f{a} divided by {b} is {result"})
+    print(f"{a} divided by {b} is {result}")
+
+divide(2,0)
     
