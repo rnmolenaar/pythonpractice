@@ -146,6 +146,15 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 " round() to round up. If you want it to a certain decimal, specify that: round(6.7262, 2)",
 "Zip function: pairs up the first two numbers from two lists, then the second ones etc with a ",
 "The opposite of zip is when you do (zip(*zipped_list)). It will unzip them because of the *),
+"SyntaxError: something that isn't valid Python. Like you forget () when defining a function", 
+"NameError: When something is not defined yet.",
+"KeyError: when a specific key does not exist in the dict",
+"ValueError: int("Letters") is a ValueError. you cannot convert this to an integer",
+"TypeError: when the wrong type is used. Like you to addition and one of them is a string", 
+"AttributeError: some method does not exist, like [1, 2, 3].happy().",
+"IndexError: when an index is asked for that doesn't exist", 
+
+
 
 
 
