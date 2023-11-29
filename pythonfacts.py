@@ -162,6 +162,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "Finally will run no matter what. Is not that commonly used",
 "try/except/else/finally works well with a loop", 
 "You can define several except in a function, for each error you want to antipate",
+"You can do one except for multiple types of errors if you usea tuple", 
 
 
 
