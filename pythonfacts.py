@@ -154,6 +154,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "AttributeError: some method does not exist, like [1, 2, 3].happy().",
 "IndexError: when an index is asked for that doesn't exist", 
 "raise TypeOfError ('message you want displayed')",
+" try/except blocks: You try something and if these is an exception, whatever is under except: will happen", 
+"Don't try to catch every error with one try/except block. It will make it difficult to understand what the problem is", 
 
 
 
