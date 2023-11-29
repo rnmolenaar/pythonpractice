@@ -30,4 +30,17 @@ def divide(a, b):
     print(f"{a} divided by {b} is {result}")
 
 divide(2,0)
-    
+
+
+# example try/except block
+
+def divide(num1, num2):
+    try: 
+        total = num1 / num2
+    except TypeError: 
+        return "Please enter integers or floats"
+    except ZeroDivisionError:
+        return "Do not divide by zero"
+    return total
+     
+
