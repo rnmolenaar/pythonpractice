@@ -15,3 +15,16 @@ def get dictionary, key):
 dictionary = {"Country": "Netherlands"]
 
 print(get(dictionary, "name"))
+
+# several except
+
+def divide(a, b):
+  try:
+    result = a/b
+  except TypeError: 
+    print("Use ints of floats"
+  except ZeroDivisionError:
+    print("You cannot divide by 0")
+  else:
+    print(f{a} divided by {b} is {result"})
+    
