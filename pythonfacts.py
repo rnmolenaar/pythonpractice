@@ -163,6 +163,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "try/except/else/finally works well with a loop", 
 "You can define several except in a function, for each error you want to antipate",
 "You can do one except for multiple types of errors if you usea tuple", 
+"PDB is Python debugger. It's a module that you don't have to install",
+"A silent bug: code doesn't break, but gives you a different result than expected",
+"pdb.set_trace() can be put in a line. Everything about it runs, but then it stops. Anything below doesn't exist yet", 
+"You don't keep pdb.set_trace() in your code", 
+"pdb.set_trace() has several commands. c is to quit",
+
 
 
 
