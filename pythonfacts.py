@@ -153,6 +153,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "TypeError: when the wrong type is used. Like you to addition and one of them is a string", 
 "AttributeError: some method does not exist, like [1, 2, 3].happy().",
 "IndexError: when an index is asked for that doesn't exist", 
+"raise TypeOfError ('message you want displayed')",
+
 
 
 
