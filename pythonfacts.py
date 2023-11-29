@@ -152,6 +152,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "ValueError: int("Letters") is a ValueError. you cannot convert this to an integer",
 "TypeError: when the wrong type is used. Like you to addition and one of them is a string", 
 "AttributeError: some method does not exist, like [1, 2, 3].happy().",
+"ZeroDivisionError: When you try to divide something by 0",
 "IndexError: when an index is asked for that doesn't exist", 
 "raise TypeOfError ('message you want displayed')",
 " try/except blocks: You try something and if these is an exception, whatever is under except: will happen", 
@@ -160,6 +161,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "Else will run when except does not. So if there is not a problem else will run", 
 "Finally will run no matter what. Is not that commonly used",
 "try/except/else/finally works well with a loop", 
+"You can define several except in a function, for each error you want to antipate",
+
 
 
 
