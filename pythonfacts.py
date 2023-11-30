@@ -168,6 +168,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "pdb.set_trace() can be put in a line. Everything about it runs, but then it stops. Anything below doesn't exist yet", 
 "You don't keep pdb.set_trace() in your code", 
 "pdb.set_trace() has several commands. c is to quit",
+"random.choice module picks something random from a list", 
+"import module_name as whatever_name_you_want_to_give_it. This is usually done to make something shorter rand.choice",
+"from is used to precisely specify what you want", 
+" * to import everything",
+" from random import randint, choice, shuffle to only import the methods you need. Then you don't need to do random.choice, but just choice",
+
 
 
 
