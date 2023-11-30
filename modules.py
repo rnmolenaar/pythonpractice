@@ -6,3 +6,19 @@ result = math
 
 answer = math.sqrt(16384)
 print(answer)
+
+#keyword module
+
+import keyword. To check if something is a keyword
+
+def check_keyword(*args):
+  for item in args:
+    if keyword.iskeyword(): return True
+  return False
+
+import keyword
+
+def contains_keyword(*args):
+    for item in args:
+        if keyword.iskeyword(item): return True
+    return False
