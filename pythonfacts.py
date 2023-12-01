@@ -177,7 +177,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "Make a module if you want to use code in more than one place. If your file is very" 
 "if you want to import a function from another file in the same directory, filename.functioname()",
 " import random vs from random import * : 1st imports everything as an attribute on random", 
-
+"custom module; one you made yourself. External module: made by others.",
+"PyPi: Python package index. You can find more modules there.",
 
 
 
