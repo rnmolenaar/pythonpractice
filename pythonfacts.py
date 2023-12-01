@@ -176,6 +176,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "If you create functions on a seperate file, you can just call the specific functions when importing from file import function",
 "Make a module if you want to use code in more than one place. If your file is very" 
 "if you want to import a function from another file in the same directory, filename.functioname()",
+" import random vs from random import * : 1st imports everything as an attribute on random", 
 
 
 
