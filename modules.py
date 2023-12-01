@@ -22,3 +22,9 @@ def contains_keyword(*args):
     for item in args:
         if keyword.iskeyword(item): return True
     return False
+
+# import module you made yourself
+
+import selfmade_module
+
+num = selfmade_module.function_defined_in_other_file()
