@@ -178,7 +178,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "if you want to import a function from another file in the same directory, filename.functioname()",
 " import random vs from random import * : 1st imports everything as an attribute on random", 
 "custom module; one you made yourself. External module: made by others.",
-"PyPi: Python package index. You can find more modules there.",
+"PyPI: Python package index. You can find more modules there.",
+"You can download external modules with pip. Comes with Python by default",
+"print(dir(module_name)) to see what's in a module", 
 
 
 
