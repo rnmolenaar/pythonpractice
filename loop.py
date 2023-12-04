@@ -5,7 +5,7 @@ while msg != "stop":
     msg = input()
 print("Okay, chill")
 
-###
+#To import random and create a random number generator
 import random
 
 random_number = random.randint(1, 20)
