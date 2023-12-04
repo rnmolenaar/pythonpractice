@@ -180,7 +180,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "custom module; one you made yourself. External module: made by others.",
 "PyPI: Python package index. You can find more modules there.",
 "You can download external modules with pip. Comes with Python by default",
-"print(dir(module_name)) to see what's in a module", 
+"print(dir(module_name")) to see what's in a module", 
+"help with module, explains a lot more about what you can do with a module", 
 
 
 
