@@ -96,7 +96,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
                "dynamically typed language is when the type of a variable is checked during run time",
                "Tuples can be a key in dictionary. Like with coordinates of a location {(coord,coord)Amsterdam Zoo} Can't use a list as a key",
                "Tuple method: count. the number of times a value is in a tuple. tuple.count('happy')",
-               "). Index: where a value is found inside the tuple",
+               "Index: where a value is found inside the tuple",
                "tuples can be nested and you can also slice them",
                "sets don't have order and no duplicate values. No index because no order {} are used. there is also a set function like dict function",
                "set methods: add t.add(4) only works if the value isn't there yet. Remove. t.remove(2) 2 is removed.",
