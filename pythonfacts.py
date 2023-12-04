@@ -182,6 +182,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "You can download external modules with pip. Comes with Python by default",
 "print(dir(module_name")) to see what's in a module", 
 "help with module, explains a lot more about what you can do with a module", 
+"Pyfiglet package for ASCII", 
 
 
 
