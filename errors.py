@@ -3,9 +3,6 @@
 if type(arg) is not str:
   raise TypeError("this must be an instance of str")
 
-
-
-
 def get dictionary, key):
   try:
     return dictionary[key]
@@ -30,7 +27,6 @@ def divide(a, b):
     print(f"{a} divided by {b} is {result}")
 
 divide(2,0)
-
 
 # example try/except block
 
