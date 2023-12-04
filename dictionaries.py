@@ -28,9 +28,6 @@ for k, v in dictionary.items():
 
 gifts = dict(Lily=2.0, Mina=8.9, Pat=12.0, Lionel=9.5, Sile=15.0)
 
-
-
-
 total_gifts = 0
 
 for gift in gifts.values():
