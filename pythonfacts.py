@@ -188,12 +188,13 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 " __name__ variable: if it's the file being run it's __main__",
 "OOP: is used to create things that actually exist in Python, like a car or a robot", 
 "Class is a blueprint for every instance/object", 
-"there can be methods etc in classes", 
+"There can be methods etc in classes", 
 "Lists are also a class that you can do certain things with. A specific list is an instance of the class lists",
 "Inheritance: an object can be part of a class that sits in another class. Just like classifying animals", 
 "Encapsulate: is done to encapsulate code in hierarchical classes", 
 "_private: to make it clear this should be only used in a given class", 
 "Abstraction: hiding unnecessary information from a user. Related to OOP", 
+"use CamelCase when defining classes. And singular", 
 
 
 
