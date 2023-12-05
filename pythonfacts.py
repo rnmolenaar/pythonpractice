@@ -195,7 +195,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "_private: to make it clear this should be only used in a given class", 
 "Abstraction: hiding unnecessary information from a user. Related to OOP", 
 "use CamelCase when defining classes. And singular", 
-
+"Classes can have a __init__ method. This gets called every time you make an object of the class", 
+ "self refers to the objects, whatever comes after that can be put in: self.name =", 
+               
 
 
 
