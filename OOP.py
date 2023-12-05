@@ -6,5 +6,7 @@ class Animal:
 cat = Animal()
 dog = Animal()
 rat = Animal()
-print(type(user1))
+print(type(dog))
+
+
 
