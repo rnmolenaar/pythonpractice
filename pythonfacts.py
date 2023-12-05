@@ -183,6 +183,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "print(dir(module_name")) to see what's in a module", 
 "help with module, explains a lot more about what you can do with a module", 
 "Module Pyfiglet package for ASCII", 
+"autopep8 package helps clean up code", 
 
 
 
