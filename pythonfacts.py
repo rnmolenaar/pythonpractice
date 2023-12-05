@@ -184,6 +184,11 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "help with module, explains a lot more about what you can do with a module", 
 "Module Pyfiglet package for ASCII", 
 "autopep8 package helps clean up code", 
+" dunder double underscore __. You're not supposed to touch them ", 
+" __name__ variable: if it's the file being run it's __main__",
+"OOP: is used to create things that actually exist in Python, like a car or a robot", 
+"Class is a blueprint for every instance/object", 
+"there can be methods etc in classes", 
 
 
 
