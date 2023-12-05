@@ -134,7 +134,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "sorted is a buildin function.makes a copy and doesn't change the original like the .sort() method for lists",
    "You can change the direction for sorted() by setting reverse=True",
    "To use emojis, you can install the emoji module",
-   "There is a Wikipedia module',
+   "There is a Wikipedia module",
    "sorted() reverse= True to do it backwards, key=lambda to sort by a certain keyword then add another word to sort by key username:  ",
    "reversed function takes in an iterable. Different from reverse method in list. This can be used with strings",
    "len can also be used with a dictionary based on the amount of key value pairs",
@@ -145,7 +145,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 " ''.join(sequence) is a fast way to concotenate a series of iterables",
 " round() to round up. If you want it to a certain decimal, specify that: round(6.7262, 2)",
 "Zip function: pairs up the first two numbers from two lists, then the second ones etc with a ",
-"The opposite of zip is when you do (zip(*zipped_list)). It will unzip them because of the *),
+"The opposite of zip is when you do (zip(*zipped_list)). It will unzip them because of the *)",
 "SyntaxError: something that isn't valid Python. Like you forget () when defining a function", 
 "NameError: When something is not defined yet.",
 "KeyError: when a specific key does not exist in the dict",
@@ -180,7 +180,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "Custom module; one you made yourself. External module: made by others.",
 "PyPI: Python package index. You can find more modules there.",
 "You can download external modules with pip. Comes with Python by default",
-"print(dir(module_name")) to see what's in a module", 
+"print(dir(module_name)): to see what's in a module", 
 "help with module, explains a lot more about what you can do with a module", 
 "Module Pyfiglet package for ASCII", 
 "autopep8 package helps clean up code", 
@@ -189,7 +189,11 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "OOP: is used to create things that actually exist in Python, like a car or a robot", 
 "Class is a blueprint for every instance/object", 
 "there can be methods etc in classes", 
-
+"Lists are also a class that you can do certain things with. A specific list is an instance of the class lists",
+"Inheritance: an object can be part of a class that sits in another class. Just like classifying animals", 
+"Encapsulate: is done to encapsulate code in hierarchical classes", 
+"_private: to make it clear this should be only used in a given class", 
+"Abstraction: hiding unnecessary information from a user. Related to OOP", 
 
 
 
