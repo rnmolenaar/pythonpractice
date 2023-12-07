@@ -1,8 +1,7 @@
 nums = [1, 2, 3, 4]
 print([num*5 for num in nums])
 
-#List comprehension is more concise than doing a for loop
-
+#List comprehension is more concise than doing a for-loop
 
 nums = [1, 2, 3, 4]
 
@@ -29,7 +28,6 @@ def even_numbers():
     return [x for x in range(1,40) if x%2==0]
 
 #check if something is in both lists
-
 
 # flesh out intersection pleaseeeee
 def check_two_lists(list1, list2):
