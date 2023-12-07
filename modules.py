@@ -28,3 +28,8 @@ def contains_keyword(*args):
 import selfmade_module
 
 num = selfmade_module.function_defined_in_other_file()
+
+# random number
+import random
+
+print (random.randint(0, 60))
