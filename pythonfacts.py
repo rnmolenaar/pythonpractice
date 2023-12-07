@@ -198,6 +198,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
 "Classes can have a __init__ method. This gets called every time you make an object of the class", 
  "self refers to the objects, whatever comes after that can be put in: self.name =", 
 "Private methods, attributes do not exist in Python", 
+"Use f strings + self.attribute to make the attribute (like age or first name) come back",
+"Class attributes are not static. You can change them", 
+"Self needs to be there for every defined instance method",          
                
 
 
