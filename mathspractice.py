@@ -4,7 +4,7 @@ for number in range(1, 101):
     squares.append(square)
 print(squares)
 
---
+#  simple odd and even checker
 
 from random import randint
 number = randint(1, 200) 
