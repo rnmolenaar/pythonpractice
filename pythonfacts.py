@@ -201,7 +201,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Use f strings + self.attribute to make the attribute (like age or first name) come back",
    "Class attributes are not static. You can change them", 
    "Self needs to be there for every defined instance method",          
-   "An instance attribute
+   "Class attribute is defined only once. They are shared by all instances. Do it at the top under Class   :",
+   "Class attributes: you don't refer to the instances any more. You don't use self.",           
 
 
 
