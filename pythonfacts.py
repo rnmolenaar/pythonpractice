@@ -203,7 +203,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Self needs to be there for every defined instance method",          
    "Class attribute is defined only once. They are shared by all instances. Do it at the top under Class   :",
    "Class attributes: you don't refer to the instances any more. You don't use self.",           
-
+   "id() shows you the exact memory location of something in Python. To check if two variables/objects refer to the same location in memory",
+               
 
 
 
