@@ -49,8 +49,6 @@ class Pet:
             raise ValueError(f"You can't have a {species} as a pet")
         self.species = species
 
-
-
 cat = Pet("Felix", "cat")
 dog = Pet("Snuffles", "bear")
 tiger = Pet("Happy", "Tiger"t
