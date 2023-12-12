@@ -206,6 +206,10 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "id() shows you the exact memory location of something in Python. To check if two variables/objects refer to the same location in memory",
    "@classmethod (this is a decorator). then def and classmethod_name(cls)", 
    " __repr__ method (dunder method) used to have a class’s object as a string", 
+   "encapsulating: binding methods and variables together and stopping them from being accessed by other classes.", 
+   "Abstraction:  hide the inner working from other users. Only show relevant data in a class interface",
+   "Class method implicit first argument = cls, instance method = self", 
+   "Class method is @classmethod. Used when a method doesn't need to know about a specific instance",
                
 
 
