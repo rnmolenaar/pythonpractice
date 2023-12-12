@@ -4,6 +4,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "The Zen of Python",
    "print(string_name.upper()",
    "With shuffle, you can shuffle a list",
+    "math.sqrt() to find the square root of a number,           
    "if you want to know what version of Python you are using, use print('sys.version')",
    "Iterable: lists, strings, dictionaries, sets, tuples: something that can be iterated over",
    "print(time.time()) to get local time in seconds after 1-1 1970. This is called the Epoch",
