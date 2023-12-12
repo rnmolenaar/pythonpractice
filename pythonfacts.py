@@ -204,8 +204,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Class attribute is defined only once. They are shared by all instances. Do it at the top under Class   :",
    "Class attributes: you don't refer to the instances any more. You don't use self.",           
    "id() shows you the exact memory location of something in Python. To check if two variables/objects refer to the same location in memory",
-   " @classmethod (this is a decorator). then def and classmethod_name(cls)", 
-
+   "@classmethod (this is a decorator). then def and classmethod_name(cls)", 
+   " __repr__ method (dunder method) used to have a class’s object as a string", 
+               
 
 
   
