@@ -53,4 +53,13 @@ cat = Pet("Felix", "cat")
 dog = Pet("Snuffles", "bear")
 tiger = Pet("Happy", "Tiger"t
 
+# if you want to use a parent class. Super refers to Plant as the parent class
 
+ class Rose(Plant):
+     def __init__(self, color, sort, country):
+     super().__init__(color, sort="Rose")
+     self.country = country
+
+
+     
+            
