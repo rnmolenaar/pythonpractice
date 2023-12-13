@@ -214,6 +214,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "If you put an argument in when creating a class, it means that this class inherits from that other class",             
    "isinstance() is a Boolean method that shows if something is an instance of a certain class", 
    "_age: makes age private for a specific class", 
+   " @property whatever you define underneath it, can be called underneath", 
+   "Getters: methods used in OOP to access the private attributes of a class", 
+   "Setters: methods used in OOP to set the value to private attributes in a class", 
+    "super() isn't of the class refers to the parent class. Don't have to specify self in this way", 
+               
+               
    
 
   
