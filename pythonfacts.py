@@ -218,9 +218,15 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Getters: methods used in OOP to access the private attributes of a class", 
    "Setters: methods used in OOP to set the value to private attributes in a class", 
     "super() isn't of the class refers to the parent class. Don't have to specify self in this way", 
-               
-               
-   
+   "Multiple inheritance: when a class inherits from multiple classes", 
+   "MRO: Method Resolution Order: this is the order that Python looks for methods on instances of a class",        
+   "To find out MRO: __mro__ attribute, mro() method, help(cls)", 
+   "print(CLASSNAME.__mro__)" help(CLASSNAME)",
+   "Polymorphism: OOP: An object can take on many forms. One method works in similar way for different classes. The same operation works for different types of objects",
+   "Method overriding: similar method in parent and child class, so the parent method is overridden", 
+   "NotImplementedError: you can raise this if every child class needs a specific method to be set. So if it's not set, the error will show up",
+   "magic methods: dunder methods", 
+  
 
   
 
