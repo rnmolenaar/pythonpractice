@@ -212,7 +212,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Class method implicit first argument = cls, instance method = self", 
    "Class method is @classmethod. Used when a method doesn't need to know about a specific instance",
    "If you put an argument in when creating a class, it means that this class inherits from that other class",             
-
+   "isinstance() is a Boolean method that shows if something is an instance of a certain class", 
+   "_age: makes age private for a specific class", 
+   
 
   
 
