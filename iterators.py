@@ -1,4 +1,4 @@
-
+# A function that returns a generator that yields every month of the year
 def year():
   months = [
     "Jan",
