@@ -228,6 +228,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Method overriding: similar method in parent and child class, so the parent method is overridden", 
    "NotImplementedError: you can raise this if every child class needs a specific method to be set. So if it's not set, the error will show up",
    "magic methods: dunder methods", 
+  "iterators: objects that can be iterated upon. Something you run a for loop on. next() can be run upon it", 
+  "iterable: objects that will return an iterator when iter() is used on it (next doesn't work on iterables)", 
+  "A string or list is not an iterator. It's iterable", 
+  "when next() is put on an iterator, the iterator returns the next item.", 
+  "StopIteration error: raised when there is nothing to be called upon any more", 
+  
   
 
   
