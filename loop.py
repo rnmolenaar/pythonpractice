@@ -35,10 +35,11 @@ def test_iterable(iterable):
     iterator = iter(iterable)
     While True:
     try:
-        print(next(iterator))
+        item = next(iterator)
     except: StopIteration:
-        print("test: end")
         break
+    else: 
+        func(item)
         
-test_iterable()
+test_iterable(["dog", "cat", "rat"], print )
 
