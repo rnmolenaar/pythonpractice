@@ -233,12 +233,14 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
   "A string or list is not an iterator. It's iterable", 
   "when next() is put on an iterator, the iterator returns the next item.", 
   "StopIteration error: raised when there is nothing to be called upon any more", 
-  "iter= returns the iterator on an iterable object", 
+  "iter= returns the iterator on an iterable object. It needs to return an iterator", 
   "the iterator returns the next item", 
-  
-
-  
-
+  "Generators are a subset of iterators: a short way of creating iterators", 
+   "Generators can be made by generator expressions and generator functions (they used the yield keywords)", 
+   "Generator functions: instead of using 'return', 'yield' is used. Can yield more than once. It returns a generator",
+  "If you put 'yield somewhere in a function, it will give you a generator object", 
+   "A generator is returned from a generator function", 
+   "You don't always have to put in a list of date. You can also use a generator expression", 
    
     
                
