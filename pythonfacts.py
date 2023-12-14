@@ -233,7 +233,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
   "A string or list is not an iterator. It's iterable", 
   "when next() is put on an iterator, the iterator returns the next item.", 
   "StopIteration error: raised when there is nothing to be called upon any more", 
-  
+  "iter= returns the iterator on an iterable object", 
+  "the iterator returns the next item", 
   
 
   
