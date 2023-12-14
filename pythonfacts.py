@@ -243,7 +243,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "You don't always have to put in a list of date. You can also use a generator expression", 
    "generator functions are not declared with the def keyword, unlike normal functions", 
    "generator expressions look and act like list comprehension",
-   
+   "higher function returns another function from inside or accepts a function as an argument", for
     
                
                
