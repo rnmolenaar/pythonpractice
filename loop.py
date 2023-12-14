@@ -28,3 +28,17 @@ while guess != random_number:
             guess = None
         else:
             print("see you next time")
+
+# test for loop. iterable/iterators
+
+def test_iterable(iterable):
+    iterator = iter(iterable)
+    While True:
+    try:
+        print(next(iterator))
+    except: StopIteration:
+        print("test: end")
+        break
+        
+test_iterable()
+
