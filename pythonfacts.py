@@ -241,6 +241,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
   "If you put 'yield somewhere in a function, it will give you a generator object", 
    "A generator is returned from a generator function", 
    "You don't always have to put in a list of date. You can also use a generator expression", 
+   "generator functions are not declared with the def keyword, unlike normal functions", 
    
     
                
