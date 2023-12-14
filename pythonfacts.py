@@ -133,8 +133,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    " double_it = map(lambda x: x*2, nums). Turn into a list by list(double_it)",
    "build in function all(): returns True if everything in the iterable is truthy or empty.",
    "Generator expressions (less memory) or list comprehensions. GE when you iterate once. LC when you want to store the result",
-   "sorted is a buildin function.makes a copy and doesn't change the original like the .sort() method for lists",
-   "You can change the direction for sorted() by setting reverse=True",
+   "sorted is built in function. makes a copy and doesn't change the original like the .sort() method for lists",
+   "You can change the direction fort- sorted() by setting reverse=True. It's alphabetical.",
    "To use emojis, you can install the emoji module",
    "There is a Wikipedia module",
    "sorted() reverse= True to do it backwards, key=lambda to sort by a certain keyword then add another word to sort by key username:  ",
@@ -142,6 +142,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "len can also be used with a dictionary based on the amount of key value pairs",
    "Len and OOP: you can tell it what you want the length of REVIEW",
    "abs: returns the absolute value of a number. Negative numbers turn into positive ones", 
+   "dir function returns all properties and methods of an object, without values", 
   "fabs treats everything as a float. Need the math module", 
   "Sum: the sum of all plus the start. Start by default is 0: sum([1, 4, 5], 12) 12 is the start here", 
    " ''.join(sequence) is a fast way to concotenate a series of iterables",
@@ -244,8 +245,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "generator functions are not declared with the def keyword, unlike normal functions", 
    "generator expressions look and act like list comprehension",
    "higher function returns another function from inside or accepts a function as an argument", for
+    "Decorator is a function that wraps other functions and changing its behavior",
+    "Decorators are an form of higher order functions and a @ should be used", 
+    "Decorators with different signatures: when one function has a different amount of arguments than the other. We use args and kwargs for that",
     
-               
+    
+    
                
                
                
