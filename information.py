@@ -12,3 +12,35 @@ set_type = ["set", "frozenset"]
 
 boolean_type = ["bool"]
 
+# Methods in Python
+
+#string methods
+#strip(). You can also use .lstrip() or rstrip() to only strip on one side 
+
+goodmorning = "      goodmorning       "
+stripped_goodmorning = goodmorning.strip()
+
+print(goodmorning)
+print(stripped_goodmorning)
+
+# upper and lower. Result is SHOUT
+shout = "shout"
+
+shout_loud = shout.upper()
+print(shout_loud)
+
+# replace. Result is "I prefer books"
+
+original = "I prefer video games"
+
+new_text = original.replace("video games", "books")
+
+print(new_text)
+
+
+
+
+
+
+
+
