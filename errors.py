@@ -39,4 +39,8 @@ def divide(num1, num2):
         return "Do not divide by zero"
     return total
      
+# using assert
 
+def function(a, b):
+  assert x = 0, "Whatever is here, will show up when x is not 0"
+ return x
