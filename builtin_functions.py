@@ -21,3 +21,10 @@ print("Hello " + name)
 age = int(input("What is your age?: "))
 
 print("You are " +str(age) + " years old")
+
+# open functions to read files. Parameters: file is mandatory. there are many others
+
+file = open("filename.txt")
+file.read()
+
+
