@@ -248,7 +248,12 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "Decorator is a function that wraps other functions and changing its behavior",
     "Decorators are an form of higher order functions and a @ should be used", 
     "Decorators with different signatures: when one function has a different amount of arguments than the other. We use args and kwargs for that",
-    
+    "A module named 'functools' is there for higher order functions", 
+    "wraps are used to preserve the name and docstrings of a function that is decorated", 
+    "Test Driven Development: you first write tests and then write the codes", 
+    "TDD: write a test that fails, green: write the least amount of code to make the test pass, refactor: clean up code", 
+    "Assertions: assert accepts an expression. Returns None if expression is truthy. If falsy: AssertionError", 
+    "assert is a statement. Not a function", 
     
     
                
