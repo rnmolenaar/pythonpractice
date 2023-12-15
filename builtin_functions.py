@@ -27,4 +27,9 @@ print("You are " +str(age) + " years old")
 file = open("filename.txt")
 file.read()
 
+# type to see what data type it is 
+
+print(type(True))
+
+
 
