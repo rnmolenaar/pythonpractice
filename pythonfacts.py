@@ -2,6 +2,7 @@ import random
 
 python_info = ["With random.choice(listname), you can pick a random item from a list",
    "The Zen of Python",
+   "A variable can start with a letter or an underscore",
    "print(string_name.upper()",
    "a function tied to an object is called a method: object.method()",
    "With shuffle, you can shuffle a list",
