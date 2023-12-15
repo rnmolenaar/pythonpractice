@@ -258,6 +258,20 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "doctests: tests for functions inside the docstring. Write like it's in a REPL. >>>", 
     "REPL: Read, Evaluate, Print, and Loop", 
     "File I/O: input output. Important for data science and webdevelopment", 
+    "Python uses a cursor when reading a file. So after doing a read method on them, they are at the end of the line", 
+    "You can move the cursor with the seek method. file.seek(0) to get to the beginning",
+    "file.readline() can be used to read a file line by line. The cursor moves along", 
+    "file.readlines() creates a list with each line", 
+    "file.close() necessary to save space. You will need to open it again afterwards",
+    " with open("filename.txt") as file:    file.read(). You don't have to close it anymore",
+    " f.__exit__()"
+    "If you want to write to a file, add a w like so: ("filename.txt", "w") as file:", 
+    "The original contents are overwritten with w",
+    "Data types, text type
+    
+    
+    
+    
     
                
                
