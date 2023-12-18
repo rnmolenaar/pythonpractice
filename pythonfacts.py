@@ -2,6 +2,9 @@ import random
 
 python_info = ["With random.choice(listname), you can pick a random item from a list",
    "The Zen of Python",
+   "To uncomment in pycharm: control / 0", 
+   " Range goes up until last number -1. Lists start counting from 0",
+   "Randint has a range, but it includes both endpoints", 
    "A variable can start with a letter or an underscore",
    "print(string_name.upper()",
    "a function tied to an object is called a method: object.method()",
