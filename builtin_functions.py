@@ -38,6 +38,10 @@ print(list(snake))
 file = open("filename.txt")
 file.read()
 
+# round() to round up a number. Behind the comma, you put the amount of decimals
+
+happy = round(8/9, 3)
+
 # str() to type convert something to a string
 
 # type() to see what data type it is 
