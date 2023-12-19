@@ -5,6 +5,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Subscripting: If you want the specific character from a string: "Hello"[0]",
    "To uncomment in pycharm: control / 0", 
    " Range goes up until last number -1. Lists start counting from 0",
+   " 273_733_378 is the same as using , in between, to make it clearer to read",
    "Randint has a range, but it includes both endpoints", 
    "A variable can start with a letter or an underscore",
    "If you do several "if" and multiple apply, then you get all those things happen",
