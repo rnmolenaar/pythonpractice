@@ -23,3 +23,5 @@ else:
 # to get the square root of a number, use the math.sqrt() method. Insert the number between ()
 math.sqrt()
 
+# floor division // to get an integer back
+print(8//7)
