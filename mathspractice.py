@@ -1,3 +1,5 @@
+#pemdas is the order of calculating things
+
 squares = []
 for number in range(1, 101):
     square = number**6
@@ -14,6 +16,10 @@ if number % 2 != 0:
 else:
     print("even")
 
+# ** to the power of
+
+2**46
 
 # to get the square root of a number, use the math.sqrt() method. Insert the number between ()
 math.sqrt()
+
