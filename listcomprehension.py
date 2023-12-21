@@ -8,7 +8,6 @@ nums = [1, 2, 3, 4]
 string_nums = [str(num) for num in nums]
 print(string_nums)
 
-
 #other example
 
 Dividableby12 = [num for num in range(1,101) if val % 12 == 0]
@@ -38,6 +37,25 @@ def check_two_lists(list1, list2):
 def all_strings():
     
     return all([type(l) == str for l in lst])
+
+# Compare 1 for loop vs 2 list comprehension: 
+
+numbers = [1, 2, 3, 4, 50]
+new_list = []
+for n in numbers:
+    exponent = n ** 2
+    new_list.append(exponent)
+
+print(new_list)
+
+new_list22 = [n ** 3 for n in numbers]
+
+print(new_list22)
+
+
+
+
+
   
    
    
