@@ -52,6 +52,14 @@ new_list22 = [n ** 3 for n in numbers]
 
 print(new_list22)
 
+# only add items to a list if they meet certain requirements
+
+dinosaurs = ["triceratops", "diplodocus", "velociraport", "parasaurolophus", "brachiosaurus"]
+
+newlist = [dino for dino in dinosaurs if "saur" in dino]
+
+print(newlist) 
+
 
 
 
