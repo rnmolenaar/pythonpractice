@@ -57,6 +57,10 @@ newlist = [dino for dino in dinosaurs if "saur" in dino]
 
 print(newlist) 
 
+# to make a list which separates the letters from a string 
+
+animal_kingdom = [ letter for letter in "animals"]
+print(animal_kingdom)
 
 
 
