@@ -18,6 +18,15 @@ age = int(input("What is your age?: "))
 
 print("You are " +str(age) + " years old")
 
+#enumerate; to loop over something with an automatic counter
+
+def reverse_string(str):
+    re = ''
+    for leter, char in enumerate(str[::-1]):
+        re += char
+    return re
+print(reverse_string("this is not a palindrome"))
+
 # Len + input
 
 hilde = len(input("what is your name? "))
@@ -27,7 +36,7 @@ print(hilde)
 
 len(272)
 
-# list
+# list()
 
 snake = "python"
 
