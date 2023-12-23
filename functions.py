@@ -143,4 +143,14 @@ def sum_floats(*args):
 
 print(sum_floats(2, 76, 82.0, 5.0))
 
+# how to reverse a string
+def reverse_string(str):
+    re = ''
+    for leter, char in enumerate(str[::-1]):
+        re += char
+    return re
+
+
+print(reverse_string("this is not a palindrome"))
+
 
