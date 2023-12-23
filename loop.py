@@ -1,3 +1,12 @@
+# for loop: 
+
+b_sports = []
+for i in "sports":
+    b_sports.append(i)
+
+print(b_sports)
+ #
+
 msg = input("Speak: ")
 
 while msg != "stop":
