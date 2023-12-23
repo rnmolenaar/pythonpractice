@@ -279,6 +279,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "Data types, text type
     "A tuple is ordered and unchangeable. Set is unordered and unchangeable",
     "To use SQL with Python, Python needs an SQL driver",
+    "No Boolean in SQL", 
+    "SQL COMMANDS IN CAPITALS", 
     
     
     
