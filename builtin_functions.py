@@ -1,4 +1,7 @@
+# all(): returns True if the iterable is empty of all values are True
 
+def all_list_check(values):
+    return all(type(list) == list for list in values)
 
 # bool
 
