@@ -277,7 +277,9 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "If you want to write to a file, add a w like so: ("filename.txt", "w") as file:", 
     "The original contents are overwritten with w",
     "Data types, text type
-    "A tuple is ordered and unchangeable. set is unordered and unchangeable",
+    "A tuple is ordered and unchangeable. Set is unordered and unchangeable",
+    "To use SQL with Python, Python needs an SQL driver",
+    
     
     
     
