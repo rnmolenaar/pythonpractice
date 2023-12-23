@@ -15,9 +15,6 @@ Dividableby12 = [num for num in range(1,101) if val % 12 == 0]
 # no vowels
 answer = [letter for letter in 'partook' if letter not in 'aeiou'] 
 
-for list2 in nested_list:
-  for val in list2:
-    print(val)
 
 #
 lists = [[l for l in range(0,30)] for num in range(0,30)]
