@@ -261,6 +261,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "wraps are used to preserve the name and docstrings of a function that is decorated", 
     "Test Driven Development: you first write tests and then write the codes", 
     "TDD: write a test that fails, green: write the least amount of code to make the test pass, refactor: clean up code", 
+    "Assert tests if a condition is True. If not an Assertionerror will be raised".
     "Assertions: assert accepts an expression. Returns None if expression is truthy. If falsy: AssertionError", 
     "assert is a statement. Not a function", 
     " -o assertions won't be evaluated", 
