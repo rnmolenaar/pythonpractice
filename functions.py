@@ -153,4 +153,13 @@ def reverse_string(str):
 
 print(reverse_string("this is not a palindrome"))
 
+# remove the second value in a list
+
+def remove_second(lst):
+    return [val for i, val in enumerate(lst) if i % 2 == 0]
+
+games = ["Zelda", "Mario", "Final Fantasy", "Street Fighter"]
+
+print(remove_every_other(games))
+
 
