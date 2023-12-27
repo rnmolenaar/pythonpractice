@@ -69,3 +69,10 @@ def letter_count(string):
     return {letter: string.count(letter) for letter in string}
 
 print(letter_count("I love Python"))
+
+# Enter a string and see how many times the letters from a certain word or group of letters appear in that string
+def happy_count(string):
+    lower = string.lower()
+    return {letter: lower.count(letter) for letter in lower if letter in "happy"}
+
+print(happy_count("There are many people in Versailles"))
