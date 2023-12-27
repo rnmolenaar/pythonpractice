@@ -25,3 +25,17 @@ math.sqrt()
 
 # floor division // to get an integer back
 print(8//7)
+
+#How to find factors
+
+def find_factors(num):
+    factors_of_number = []
+    i = 1
+    while i <= num:
+        if num % i == 0:
+            factors_of_number.append(i)
+        i += 1
+    return factors_of_number
+
+
+print(find_factors(4987))
