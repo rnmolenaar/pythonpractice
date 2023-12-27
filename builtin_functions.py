@@ -62,6 +62,9 @@ file.read()
 
 happy = round(8/9, 3)
 
+# slice()
+
+
 # str() to type convert something to a string
 
 # type() to see what data type it is 
