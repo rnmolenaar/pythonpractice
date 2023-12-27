@@ -19,6 +19,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Iterable: lists, strings, dictionaries, sets, tuples: something that can be iterated over",
    "print(time.time()) to get local time in seconds after 1-1 1970. This is called the Epoch",
    "time.sleep()to put a pause for x in range(0, max): print(x)time.sleep(0.012)",
+   "Slicing a string with index [start:stop:step]",
    "TensorFlow is a module related to machine learning",
    "SciPy is a module related to algoritms for scientific computing",
    "PyTorch is a library for irregular input data.",
