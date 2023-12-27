@@ -9,3 +9,8 @@ print(slicing_names)
 name = "Napoleon Bonaparte"
 slicing_names = name[:11]
 print(slicing_names)
+
+# slicing going backwards
+name = "Napoleon Bonaparte"
+slicing_names = name[::-2]
+print(slicing_names)
