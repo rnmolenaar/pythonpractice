@@ -76,3 +76,9 @@ def happy_count(string):
     return {letter: lower.count(letter) for letter in lower if letter in "happy"}
 
 print(happy_count("There are many people in Versailles"))
+
+
+# Dict methods----------
+
+# values() returns the values of the dictionary as a list
+
