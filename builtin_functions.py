@@ -53,6 +53,14 @@ snake = "python"
 
 print(list(snake))
 
+#map(function, iterable): define a function first and then run it. Map runs it for you, so no need to write a lot. It doesn't change the list (pure function)
+
+def multiply_by_itself(item):
+    return item * item
+
+print(list(map(multiply_by_itself, [2, 4, 6, 8])))
+
+
 # open() functions to read files. Parameters: file is mandatory. there are many others
 
 file = open("filename.txt")
