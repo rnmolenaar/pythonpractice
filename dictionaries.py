@@ -77,6 +77,20 @@ def happy_count(string):
 
 print(happy_count("There are many people in Versailles"))
 
+# Create a dictionary in which you add values to keys
+
+def create_dictionaries(keys, values):
+    collection = {}
+
+    for idx, val in enumerate(keys):
+        if idx < len(values):
+            collection[keys[idx]] = values[idx]
+        else:
+            collection[keys[idx]] = None
+    return collection
+
+print(create_dictionaries("happy","day"))
+
 # Dict methods----------
 
 
