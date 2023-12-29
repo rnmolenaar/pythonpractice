@@ -77,8 +77,15 @@ def happy_count(string):
 
 print(happy_count("There are many people in Versailles"))
 
-
 # Dict methods----------
 
+
+#keys() returns the keys of the dictionary as a list
+
+
 # values() returns the values of the dictionary as a list
+
+
+
+
 
