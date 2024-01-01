@@ -1,3 +1,7 @@
+# error types: syntax error because a variable can't start with a number
+101dalmatians = "many dogs"
+
+#######
 # when raising error messages
 
 if type(arg) is not str:
