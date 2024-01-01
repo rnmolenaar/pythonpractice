@@ -1,3 +1,13 @@
+
+
+# square root. To get to 3.0
+
+9 ** 0.5
+
+# // integer division rounds up or down to get to a whole number
+10//3
+
+
 #pemdas is the order of calculating things
 
 squares = []
