@@ -4,6 +4,8 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "The Zen of Python",
    "Subscripting: If you want the specific character from a string: "Hello"[0]",
    "To uncomment in pycharm: control / 0", 
+   "Variables can be reassigned at any time",
+   "assigning several variables at once: at, the, same, time = 1, 2, 3, 4",
    " Range goes up until last number -1. Lists start counting from 0",
    " 273_733_378 is the same as using , in between, to make it clearer to read",
    "Randint has a range, but it includes both endpoints", 
