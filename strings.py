@@ -1,3 +1,12 @@
+# string escape sequences
+# \n creates a new line
+#  \\ to create a backslash
+# \" to keep the double quotes if you have double quotes surrounding the string
+
+## String concatenation: you can use += for words as well
+string_name = "hello" 
+string_name += " friend".
+
 #slicing a string
 
 name = "Napoleon Bonaparte"
