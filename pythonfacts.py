@@ -57,7 +57,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "// is integer division",
    "assign multiple variables at once: all, at, once = 2, 3, 4",
    "== operator to compare the values of two objects. The is operator compares the identity of two objects.",
-   "Dynamic typing= types can change easily in Python",
+   "Dynamic Typing= types of variables can change easily in Python by assigning something else to them C++ is statically types, in contrast",
    " 2 ** 3 ** 2 is hetzelfde als 2 ** (3 ** 2)",
    " \n new line",
    "interpolate = with an f string. you make something part of the string",
