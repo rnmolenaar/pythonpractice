@@ -1,6 +1,9 @@
 # data types in Python
 
 text_type = ["str"]
+### Strings
+# strings are any unicode character
+
 
 numeric_type = ["int", "float", "complex"]
 
@@ -10,7 +13,10 @@ sequence_type = ["list", "tuple", "range"]
 
 set_type = ["set", "frozenset"]
 
+###
 boolean_type = ["bool"]
+# Games often start in this way
+ game_over = False
 
 # Methods in Python
 
