@@ -25,17 +25,21 @@ def reverse_string(str):
 print(reverse_string("this is not a palindrome"))
 
 
-# input
+# input()
 
 name = input("What is your name?: ")
 
 print("Hello " + name)
+
+# example two input()
 
 # input + int/float
 
 age = int(input("What is your age?: "))
 
 print("You are " +str(age) + " years old")
+
+
 
 #int() converts a float into an int by chopping of everything behind the decimal. It doesn't round up
 
