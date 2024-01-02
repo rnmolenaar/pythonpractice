@@ -7,6 +7,10 @@
 string_name = "hello" 
 string_name += " friend".
 
+#string index starts with 0
+
+
+
 #slicing a string
 
 name = "Napoleon Bonaparte"
