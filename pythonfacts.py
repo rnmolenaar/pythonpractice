@@ -11,6 +11,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "Randint has a range, but it includes both endpoints", 
    "A variable can start with a letter or an underscore",
    "If you do several "if" and multiple apply, then you get all those things happen",
+   "None can be assigned to a variable when something doesn't apply, like some people with dogs have their dogs age there, but people without dogs have None",
    "If you want to use input(), make sure you wrap it in int() if you want to use the number as an integer", 
    "print(string_name.upper()",
    'Primitive Data types: integer, float, Boolean, string", 
