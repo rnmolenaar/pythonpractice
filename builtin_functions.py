@@ -31,6 +31,11 @@ name = input("What is your name?: ")
 
 print("Hello " + name)
 
+#If you want the user to input on a new line then: 
+print("What is your name?"
+answer = input()
+print("Your name is " + answer)
+
 # example two input()
 
 # input + int/float
