@@ -33,3 +33,10 @@ num = selfmade_module.function_defined_in_other_file()
 import random
 
 print (random.randint(0, 60))
+
+# To assign a random number to a variable, which can then be used in conditional statements
+
+from random import randint
+num = randint(1, 1000)
+
+
