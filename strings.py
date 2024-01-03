@@ -9,7 +9,8 @@ string_name += " friend".
 
 #string index starts with 0
 
-
+# multiply strings
+print("Happy birthday" * 20)
 
 #slicing a string
 
