@@ -62,6 +62,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    " 2 ** 3 ** 2 is hetzelfde als 2 ** (3 ** 2)",
    " \n new line",
    "interpolate = with an f string. you convert data types into a string",
+   " f string: anything happening between {} is regular python, so you can put round() there for instance",
    "if num % 2 != 0:",
    "naturally false things: 0, false conditional checks, empty objects, empty strings, None",
    "if variable: then it checks if there is something in it and therefore truthy",
