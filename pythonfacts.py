@@ -8,6 +8,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "assigning several variables at once: at, the, same, time = 1, 2, 3, 4",
    " Range goes up until last number -1. Lists start counting from 0",
    " 273_733_378 is the same as using , in between, to make it clearer to read",
+   "if statements are also called conditional statements",
    "Randint has a range, but it includes both endpoints", 
    "A variable can start with a letter or an underscore",
    "If you do several "if" and multiple apply, then you get all those things happen",
