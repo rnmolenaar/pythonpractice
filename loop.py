@@ -52,3 +52,18 @@ def test_iterable(iterable):
         
 test_iterable(["dog", "cat", "rat"], print )
 
+#While loops
+
+password_attempt = input("Please type your password ")
+while password_attempt != "Noordholland":
+    print("This is wrong. Please try again")
+    password_attempt = input("Try again ")
+print("You can enter")
+
+#while loops
+
+number = 2
+while number < 90000:
+    print(number)
+    number **= 2
+
