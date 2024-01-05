@@ -66,6 +66,12 @@ snake = "python"
 
 print(list(snake))
 
+# You can do list() on a range as well. 
+
+numbers_range = range(0,10)
+
+list(numbers_range)
+
 #map(function, iterable): define a function first and then run it. Map runs it for you, so no need to write a lot. It doesn't change the list (pure function)
 
 def multiply_by_itself(item):
