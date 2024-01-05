@@ -44,6 +44,14 @@ age = int(input("What is your age?: "))
 
 print("You are " +str(age) + " years old")
 
+# machine 
+
+machine = input("How many times should the machine repeat this process?")
+machine = int(machine)
+
+for mach in range(machine):
+    print("Button pushed")
+
 
 
 #int() converts a float into an int by chopping of everything behind the decimal. It doesn't round up
