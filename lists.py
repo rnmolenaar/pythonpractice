@@ -26,3 +26,48 @@ print(pet)
 
 ##################built in methods for lists
 
+### adding to a list
+
+# .append() will add something to the end of a list. Takes only one argument
+
+rodents = ["rats", "capybaras","rabbits"]
+rodents.append("mice")
+
+print(rodents)
+
+# .extend() will take in another list and add the values to the end of the first list
+
+rodents = ["rats", "capybaras","rabbits"]
+rodents.extend(["mice", "guinea pigs"])
+
+print(rodents)  #['rats', 'capybaras', 'rabbits', 'mice', 'guinea pigs']
+
+# .insert: adds a value at a specific position in the list
+
+rodents = ["rats", "capybaras","rabbits"]
+rodents.insert(2, "hamsters")
+
+print(rodents)
+
+## removing from a list
+
+# .clear() removes everything
+
+planets = ["Mercury", "Venus", "Mars", "Jupiter"]
+planets.clear()
+
+print(planets) # []
+
+# .pop() removes something from list at a specific place. If no index is given, the last item will be removed from the list. This last item is then returned
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter"]
+planets.pop(2)
+
+print(planets) # earth is returned
+
+# .remove() you need to give a value
+
+
+
+
+
+
