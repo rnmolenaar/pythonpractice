@@ -26,7 +26,17 @@ print(pet)
 
 ##################built in methods for lists
 
-### adding to a list
+## general list methods
+
+# .index() shows you where an item is 
+
+languages = ["English", "Japanese", "Chinese", "French", "Romanian"]
+print(languages.index("English")) # 0
+
+
+
+
+## adding to a list
 
 # .append() will add something to the end of a list. Takes only one argument
 
@@ -64,7 +74,16 @@ planets.pop(2)
 
 print(planets) # earth is returned
 
-# .remove() you need to give a value
+# .remove() you need to give a value. It only removes the first one if there are more than one. Does not return the item. 
+
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter"]
+planets.remove("Mercury")
+
+print(planets)
+
+
+
+
 
 
 
