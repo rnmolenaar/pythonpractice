@@ -15,6 +15,12 @@ my_list = [0.5, "what", "nono", ["blabla", "yay"]]
 
 print("yelp" in my_list)
 
+# Slicing a list [start:stop"step}
+
+#[0:] makes a copy of the list
+
+#[0::2] skip the end but add the second : to make sure it counts as step
+
 ######### build in functions
 #len()
 
@@ -28,12 +34,34 @@ print(pet)
 
 ## general list methods
 
+# .count() shows you how many times you'll find something in a list
+
+languages = ["English", "Japanese", "Chinese", "French", "Romanian", "Japanese"]
+print(languages.count("Japanese")) # 2
+
+
 # .index() shows you where an item is 
 
 languages = ["English", "Japanese", "Chinese", "French", "Romanian"]
 print(languages.index("English")) # 0
 
+# .join() string method. 
 
+languages = ["English", "Japanese", "Chinese", "French", "Romanian"]
+string_example = "".join(languages) 
+print(string_example) # EnglishJapaneseChineseFrenchRomanian
+
+# .reverse() swaps the order of the list
+
+languages = ["English", "Japanese", "Chinese", "French", "Romanian"]
+languages.reverse()
+print(languages) # ['Romanian', 'French', 'Chinese', 'Japanese', 'English']
+
+# .sort() sorts alphabetically 
+
+languages = ["English", "Japanese", "Chinese", "French", "Romanian"]
+languages.sort()
+print(languages) # ['Chinese', 'English', 'French', 'Japanese', 'Romanian']
 
 
 ## adding to a list
