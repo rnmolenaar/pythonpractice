@@ -48,3 +48,11 @@ def divide(num1, num2):
 def function(a, b):
   assert x = 0, "Whatever is here, will show up when x is not 0"
  return x
+
+## Error types
+
+# KeyError when you call a key in a dictionary that does not exist
+
+TRex = dict(name = "Rexie", food = "meat", size = "big")
+
+print(TRex["age"]) # KeyError
