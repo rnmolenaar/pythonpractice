@@ -15,6 +15,10 @@ games = ["Zelda", "Mario", "Final Fantasy", "Street Fighter"]
 for x, element in enumerate(games):
     print(x, element)
 
+# dict() to create a dictionary
+
+TRex = dict(name = "Rexie", food = "meat", size = "big")
+
 # second enumerate() example
 
 def reverse_string(str):
