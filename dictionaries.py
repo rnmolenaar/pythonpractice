@@ -21,8 +21,14 @@ for value in dictionary.values():
     print(value) 
 # You can also do .keys() is the same as above
 
-# running a for loop on items. You get both key and value in a tuple.
+# for items()
 
+TRex = {"name" : "Rexie", "food" : "meat", "size" : "big"}
+
+for keytje, valuetje in TRex.items():
+    print(f"the key is {keytje} and the value is {valuetje}")
+
+# running a for loop on items. You get both key and value in a tuple.
     
 for k, v in dictionary.items():
     print(f:"key is {k} and value is {v}")
@@ -43,6 +49,17 @@ for gift in gifts.values():
 # or
 
 total_gifts = sum(gifts.values())
+
+# other addition example
+
+moons = dict(mercury = 0, venus = 0, earth = 1, mars =2)
+
+total_moons = 0
+
+for moon in moons.values():
+    total_moons += moon
+
+print(total_moons)
 
 # fromkeys method
 start = dict.fromkeys(dictionary_name, 0)
@@ -98,12 +115,42 @@ print(create_dictionaries("happy","day"))
 
 # Dict methods----------
 
+# .clear() clears the whole dictionary
 
-#keys() returns the keys of the dictionary as a list
+# .copy() creates a new dictionary that is identical to the first one 
 
+collections = {'stickers': 2, 'postcards': 9, 'fridge magnets': 40} 
+
+my_collections = collections.copy()
+
+# .fromkeys() used on an empty dictionary. You can set all the values to None or unknown, or something like that
+
+stars = ["moons", "planets", "asteroids"]
+
+start_solar_system = dict.fromkeys(stars, None)
+
+print(start_solar_system)
+
+# get() if a requested key does not exist, it returns None, instead of an error
+
+# pop() use the key of what you want to remove. You have to put something in because dictionaries have no order
+collections = {'stickers': 2, 'postcards': 9, 'fridge magnets': 40}
+collections.pop("stickers")
+
+# popitem() removes a random key from a dictionary
+
+### Dictionary comprehension { :  for    in    }
+
+
+
+
+#keys() returns the keys of the dictionary as a list 
+
+# update() adds everything from the dictionary between () and adds it. You can overwrite what is there too
 
 # values() returns the values of the dictionary as a list
 
+# items() returns both keys and values 
 
 
 
