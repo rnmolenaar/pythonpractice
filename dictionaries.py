@@ -10,6 +10,11 @@ person = {
 
 full_name = person["first"] + " " + person["last"]
 
+# Accessing a specific value in a dictionary
+TRex = dict(name = "Rexie", food = "meat", size = "big")
+
+print(TRex["name"]) # Rexie
+
 # running a for loop on the values in a dictionary. You only get the values with this
 
 for value in dictionary.values():
