@@ -14,3 +14,14 @@ print(planet)
 tuple_name.count(name)
 
 #.index() what is the index of (something). Only shows the first occassion. 
+
+########### Sets
+# no duplicate values. no order. No index because no order. 
+
+set = {"a", "b", "c"}
+
+# sets often used to remove duplicates
+
+favorite_fruits = ["apples", "bananas", "apples", "strawberries", "kiwis", "kiwis"]
+print(set(favorite_fruits)) # {'strawberries', 'bananas', 'kiwis', 'apples'}
+
