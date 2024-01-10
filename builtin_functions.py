@@ -9,6 +9,8 @@ check_bool = 0
 
 print(bool(check_bool))
 
+# chr() gets the unicode of a character
+
 #enumerate; to loop over something with an automatic counter. The index number will be printed if you do this: 
 games = ["Zelda", "Mario", "Final Fantasy", "Street Fighter"]
 
