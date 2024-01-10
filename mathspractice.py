@@ -1,5 +1,7 @@
+# + addition operator
 
 
+# == equality operator, != inequality operator
 # square root. To get to 3.0
 
 9 ** 0.5
