@@ -3,7 +3,8 @@
 def big_letters(insert):
     return f"{insert.upper()}!"
 
-#return breaks you out of the function. So make sure everything is done that needs to be done. Watch indentation
+#return breaks you out of the function. So make sure everything is done that needs to be done. Watch indentation. It stores something and exits. 
+# anything written under the line with return, won't happen. Removes the function from the call stack 
 def sum_odd_numbers(numbers):
     total = 0
     for num in numbers:
