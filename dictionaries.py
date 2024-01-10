@@ -74,6 +74,18 @@ list2 = ["Amsterdam", "Netherlands", "Europe"]
 
 answer = { list1[i]: list2[i] for i in range(0,3)}
 
+numbers = [5, 6, 7, 8]
+planets = ["Jupiter", "Saturn", "Uranus", "Neptune"]
+
+zipped_planets = {numbers[i]: planets[i] for i in range(0,3)}
+print(zipped_planets)
+
+
+legs = [2, 4, 6, 8]
+animals = ["humans", "cats", "bees", "spiders"]
+combined_legs = { legs[l]: animals[l] for l in range(0,3)}
+print(combined_legs)
+
 #dict comprehension 2
 
 animal = [["name", "Len"], ["sort", "cat"], ["age", "2"]]
