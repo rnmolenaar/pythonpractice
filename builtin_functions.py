@@ -108,6 +108,8 @@ happy = round(8/9, 3)
 
 # str() to type convert something to a string
 
+# tuple() to create a tuple
+
 # type() to see what data type it is 
 
 print(type(True))
