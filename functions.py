@@ -163,4 +163,5 @@ games = ["Zelda", "Mario", "Final Fantasy", "Street Fighter"]
 
 print(remove_every_other(games))
 
+# """ """ to write a comment in a function. You can access them by doing function_name().__doc__
 
