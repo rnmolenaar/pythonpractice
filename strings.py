@@ -28,3 +28,10 @@ print(slicing_names)
 name = "Napoleon Bonaparte"
 slicing_names = name[::-2]
 print(slicing_names)
+
+# string methods. 
+
+3 # .replace() When you want to replace parts of a string
+
+ string.replace(" ", "").lower()
+ 
