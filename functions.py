@@ -154,6 +154,16 @@ def reverse_string(str):
 
 print(reverse_string("this is not a palindrome"))
 
+
+# to find a search term 
+
+def frequency(lst, search_term):
+   return lst.count(search_term)
+
+list_name = ["cat", "rabbit"]
+
+print(frequency( list_name, "rabbit"))
+
 # remove the second value in a list
 
 def remove_second(lst):
