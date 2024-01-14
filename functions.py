@@ -178,4 +178,4 @@ print(remove_every_other(games))
 
 ## lambdas
 #lambda: lambda parameter : parameter (expression). Always a single line. Automatically returned. 
-#
+# Often used with build in function map()
