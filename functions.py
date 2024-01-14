@@ -175,3 +175,7 @@ print(remove_every_other(games))
 
 # """ """ to write a comment in a function. You can access them by doing function_name().__doc__
 
+
+## lambdas
+#lambda: lambda parameter : parameter (expression). Always a single line. Automatically returned. 
+#
