@@ -1,4 +1,6 @@
-# all(): returns True if the iterable is empty of all values are True
+# ann()
+
+# all(): returns True if all values are truthy or empty in an iterable
 
 def all_list_check(values):
     return all(type(list) == list for list in values)
