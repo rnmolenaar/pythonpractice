@@ -1,4 +1,6 @@
-# ann()
+# any() if any is truthy
+
+
 
 # all(): returns True if all values are truthy or empty in an iterable
 
@@ -110,6 +112,10 @@ file.read()
 happy = round(8/9, 3)
 
 # slice()
+
+# sorted() works with tuples or lists. It returns a copy, doesn't change the original itself. 
+#It sorts it by alphabet and numbers. if reverse=True it will change the order
+# when sorting a dictionary, you have to write down the parameter to be sorted: key=len to have he ones with most key-value pairs
 
 
 # str() to type convert something to a string
