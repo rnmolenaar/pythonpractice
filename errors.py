@@ -1,6 +1,15 @@
 # error types: syntax error because a variable can't start with a number
 101dalmatians = "many dogs"
 
+## common errors
+
+# NameError: something hasn't been defined
+
+# SyntaxError. Something is missing
+
+#TypeError: wrong type is used. Something is used meant for a different type. 
+
+
 #######
 # when raising error messages
 
