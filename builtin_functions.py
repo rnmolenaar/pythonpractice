@@ -30,6 +30,8 @@ def reverse_string(str):
     return re
 print(reverse_string("this is not a palindrome"))
 
+# filter()
+
 
 # input()
 
@@ -92,6 +94,8 @@ def multiply_by_itself(item):
     return item * item
 
 print(list(map(multiply_by_itself, [2, 4, 6, 8])))
+
+# map() accepts two arguments: a function and an iterable
 
 
 # open() functions to read files. Parameters: file is mandatory. there are many others
