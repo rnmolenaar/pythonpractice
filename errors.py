@@ -21,6 +21,8 @@
 
 float("this is indeed a string, so the correct type, but the value can't be converted to an integer")
 
+#ZeroDivisionError when you try to divive by 0
+
 
 #######
 # when raising error messages
