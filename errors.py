@@ -3,11 +3,23 @@
 
 ## common errors
 
+# AttributeError: attribute does not exist. iow a method does not exist
+
+[9, 2, 4].singsong()
+
+# IndexError: the index is too high and does not exist
+
+# KeyError when you try to get something from a dictionary with a key that does not exist in that dict. (Similar to IndexError) 
+
 # NameError: something hasn't been defined
 
 # SyntaxError. Something is missing
 
 #TypeError: wrong type is used. Something is used meant for a different type. 
+
+# ValueError: there is nothing wrong about the type but the value added is wrong
+
+float("this is indeed a string, so the correct type, but the value can't be converted to an integer")
 
 
 #######
