@@ -7,7 +7,7 @@
 def all_list_check(values):
     return all(type(list) == list for list in values)
 
-# bool
+# bool()
 
 check_bool = 0
 
@@ -56,13 +56,6 @@ age = int(input("What is your age?: "))
 
 print("You are " +str(age) + " years old")
 
-# machine 
-
-machine = input("How many times should the machine repeat this process?")
-machine = int(machine)
-
-for mach in range(machine):
-    print("Button pushed")
 
 
 
@@ -99,7 +92,19 @@ def multiply_by_itself(item):
 
 print(list(map(multiply_by_itself, [2, 4, 6, 8])))
 
+# machine 
+
+machine = input("How many times should the machine repeat this process?")
+machine = int(machine)
+
+for mach in range(machine):
+    print("Button pushed")
+
+
 # map() accepts two arguments: a function and an iterable
+
+# min() to find the shortest thing
+
 
 
 # open() functions to read files. Parameters: file is mandatory. there are many others
