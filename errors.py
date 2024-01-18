@@ -11,7 +11,7 @@
 
 # KeyError when you try to get something from a dictionary with a key that does not exist in that dict. (Similar to IndexError) 
 
-# NameError: something hasn't been defined
+# NameError: something hasn't been defined. Also happens when a module has not been imported yet and its methods are not yet available.
 
 # SyntaxError. Something is missing
 
