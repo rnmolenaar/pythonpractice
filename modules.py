@@ -1,11 +1,8 @@
-# math module
+# use 'as' to change the name of the module
 
-import math
+# You can only import one method or two, three etc. If you want to import them all, use *
 
-result = math
-
-answer = math.sqrt(16384)
-print(answer)
+from random import shuffle
 
 #keyword module
 
@@ -29,14 +26,38 @@ import selfmade_module
 
 num = selfmade_module.function_defined_in_other_file()
 
-# random number
-import random
-
-print (random.randint(0, 60))
-
 # To assign a random number to a variable, which can then be used in conditional statements
 
 from random import randint
 num = randint(1, 1000)
 
+### modules
+
+# keyword: regards the Python keywords
+
+import keyword
+
+def keyword_present(*args):
+    for i in args:
+        if keyword.iskeyword(i): return True
+    return False
+
+# math module
+
+import math
+
+result = math
+
+answer = math.sqrt(16384)
+print(answer)
+
+# random
+
+# .choice() method: pick something random from a list
+
+
+# random number
+import random
+
+print (random.randint(0, 60))
 
