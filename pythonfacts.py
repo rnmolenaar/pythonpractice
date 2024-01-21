@@ -155,7 +155,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "To use emojis, you can install the emoji module",
    "There is a Wikipedia module",
    "sorted() reverse= True to do it backwards, key=lambda to sort by a certain keyword then add another word to sort by key username:  ",
-   "reversed function takes in an iterable. Different from reverse method in list. This can be used with strings",
+   "build in reversed function takes in an iterable. Different from reverse method in list. This can be used with strings",
    "len can also be used with a dictionary based on the amount of key value pairs",
    "Len and OOP: you can tell it what you want the length of REVIEW",
    "abs: returns the absolute value of a number. Negative numbers turn into positive ones", 
