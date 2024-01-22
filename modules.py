@@ -61,3 +61,11 @@ import random
 
 print (random.randint(0, 60))
 
+### external modules
+
+# termcolor
+
+from termcolor import colored
+
+colored_string = colored("Test color", color="yellow", on_color="on_magenta")
+print(colored_string)
