@@ -1,7 +1,6 @@
 # any() if any is truthy
 
 
-
 # all(): returns True if all values are truthy or empty in an iterable
 
 def all_list_check(values):
@@ -14,6 +13,12 @@ check_bool = 0
 print(bool(check_bool))
 
 # chr() gets the unicode of a character
+
+# dir() shows you all the methods of an object. Is handy to use with a module as well. 
+
+import random
+
+print(dir(random))
 
 #enumerate; to loop over something with an automatic counter. The index number will be printed if you do this: 
 games = ["Zelda", "Mario", "Final Fantasy", "Street Fighter"]
@@ -35,6 +40,12 @@ def reverse_string(str):
 print(reverse_string("this is not a palindrome"))
 
 # filter()
+
+# help() shows the documentation of modules, functions, classes, keywords. You don't need print() to have it shown
+
+import tkinter
+
+help(tkinter)
 
 
 # input()
