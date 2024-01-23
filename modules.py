@@ -63,6 +63,8 @@ print (random.randint(0, 60))
 
 ### external modules
 
+# pyfiglet
+
 # termcolor
 
 from termcolor import colored
