@@ -1,3 +1,5 @@
+# autopep8 module helps edit code so that it fits the standards of the PEP 8 style guide
+
 # use 'as' to change the name of the module
 
 # You can only import one method or two, three etc. If you want to import them all, use *
