@@ -1,3 +1,5 @@
+# the yield keyword is similar to return. Yield is faster. It is used to creater a generator function. 
+
 # A function that returns a generator that yields every month of the year
 def year():
   months = [
