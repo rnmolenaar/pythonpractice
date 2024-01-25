@@ -255,7 +255,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
   "iter= returns the iterator on an iterable object. It needs to return an iterator", 
   "the iterator returns the next item", 
   "Generators are a subset of iterators: a short way of creating iterators", 
-  "expressions represent a value.  An expression combinesf values, operators, and functions that make a new value",
+  "expressions represent a value.  An expression combines values, operators, and functions that make a new value",
    "Generators can be made by generator expressions and generator functions (they used the yield keywords)", 
    "Generator functions: instead of using 'return', 'yield' is used. Can yield more than once. It returns a generator",
   "If you put 'yield somewhere in a function, it will give you a generator object", 
