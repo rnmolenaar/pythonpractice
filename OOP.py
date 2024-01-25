@@ -36,6 +36,8 @@ class Bank:
     def withdraw(self, amount):
         self.balance -= amount
         return self.balance
+
+# if you want to indicate that something is private, you put _ in front of it. Should only be used in the class (can still be accessed, but it is a convention
  
 # Raise errors. the last two will have errors raised.
 
