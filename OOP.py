@@ -1,4 +1,6 @@
+# When you create a class, you also ceate the functions it can use as methods, when you create an object
 #creating a Class and a few objecs:
+
 
 class Animal:
     pass
