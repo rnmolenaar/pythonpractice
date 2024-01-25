@@ -243,6 +243,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
    "MRO: Method Resolution Order: this is the order that Python looks for methods on instances of a class",        
    "To find out MRO: __mro__ attribute, mro() method, help(cls)", 
    "print(CLASSNAME.__mro__)" help(CLASSNAME)",
+   "Abstraction: show only what is relevant",
    "Polymorphism: OOP: An object can take on many forms. One method works in similar way for different classes. The same operation works for different types of objects",
    "Method overriding: similar method in parent and child class, so the parent method is overridden", 
    "NotImplementedError: you can raise this if every child class needs a specific method to be set. So if it's not set, the error will show up",
@@ -287,7 +288,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     " f.__exit__()"
     "If you want to write to a file, add a w like so: ("filename.txt", "w") as file:", 
     "The original contents are overwritten with w",
-    "Data types, text type
+    "Data types, text type", 
     "A tuple is ordered and unchangeable. Set is unordered and unchangeable",
     "To use SQL with Python, Python needs an SQL driver",
     "No Boolean in SQL", 
