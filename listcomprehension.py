@@ -10,7 +10,7 @@ print(string_nums)
 
 #other example
 
-Dividableby12 = [num for num in range(1,101) if val % 12 == 0]
+dividableby12 = [num for num in range(1,101) if val % 12 == 0]
 
 # no vowels
 answer = [letter for letter in 'partook' if letter not in 'aeiou'] 
@@ -62,7 +62,12 @@ print(newlist)
 animal_kingdom = [ letter for letter in "animals"]
 print(animal_kingdom)
 
+# make a new list 
+men_names = ["leo", "Chris", "hirofumi", "ken", "abdel"]
 
+l_names = [x for x in men_names if "l" in x]
+
+print(l_names) 
 
 
   
