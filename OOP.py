@@ -21,6 +21,28 @@ Saturn = ("Sun", "gas giant", 2)
 Trappist1e = ("Trappist1e", "rocky, earth-sized". 4)
 TrES4b = ("GSC 02620-00648", "hot Jupiter", 1)
 
+#Third example. 
+
+Class King:
+def __init__(self, country, era, warlike):
+    self.country = country
+    self.era =era 
+    self. warlike = warlike
+
+EdwardI = ("England", "medieval", True)
+LouisXIV = ("France", "Enlightenment", False)
+FerdinandofAragon = ("Aragon", "late medieval", True)
+
+#Fourth Example
+
+Class country:   
+    def__init__(self, continent, language, capital)
+    self.continent = continent
+    self.language = language
+    self.capital = capital
+
+Nigeria = 
+
 
 
 
