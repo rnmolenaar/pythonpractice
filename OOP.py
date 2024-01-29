@@ -11,6 +11,19 @@ ratgirl = Superhero("own the sewers", "Ratgirl", "Atty")
 
 #second example
 
+Class Planet:
+     def __init__(self, star, sort, size_ranking):
+        self.star = star
+        self.sort = sort
+        self.size_ranking = size_ranking
+
+Saturn = ("Sun", "gas giant", 2) 
+Trappist1e = ("Trappist1e", "rocky, earth-sized". 4)
+TrES4b = ("GSC 02620-00648", "hot Jupiter", 1)
+
+
+
+
 class Animal:
     pass
 
