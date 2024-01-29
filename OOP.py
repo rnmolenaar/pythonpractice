@@ -1,6 +1,15 @@
 # When you create a class, you also ceate the functions it can use as methods, when you create an object
-#creating a Class and a few objecs:
+#creating a Class and a few objects:
 
+class Superhero:
+    def __init__(self, superpower, name, real_name):
+        self.superpower =  superpower
+        self.name = name
+        self.real_name
+
+ratgirl = Superhero("own the sewers", "Ratgirl", "Atty")
+
+#second example
 
 class Animal:
     pass
