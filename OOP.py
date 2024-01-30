@@ -17,9 +17,9 @@ Class Planet:
         self.sort = sort
         self.size_ranking = size_ranking
 
-Saturn = ("Sun", "gas giant", 2) 
-Trappist1e = ("Trappist1e", "rocky, earth-sized". 4)
-TrES4b = ("GSC 02620-00648", "hot Jupiter", 1)
+Saturn = Planet("Sun", "gas giant", 2) 
+Trappist1e = Planet("Trappist1e", "rocky, earth-sized". 4)
+TrES4b = Planet("GSC 02620-00648", "hot Jupiter", 1)
 
 #Third example. 
 
@@ -29,21 +29,28 @@ def __init__(self, country, era, warlike):
     self.era =era 
     self. warlike = warlike
 
-EdwardI = ("England", "medieval", True)
-LouisXIV = ("France", "Enlightenment", False)
-FerdinandofAragon = ("Aragon", "late medieval", True)
+EdwardI = King("England", "medieval", True)
+LouisXIV = King("France", "Enlightenment", False)
+FerdinandofAragon = King("Aragon", "late medieval", True)
 
 #Fourth Example
 
-Class country:   
+Class Country:   
     def__init__(self, continent, language, capital)
     self.continent = continent
     self.language = language
     self.capital = capital
 
-Nigeria = 
+Nigeria = Country(
 
+Class Fairytale:
+    def __init__(self, villain, object):
+        self.villain = villain
+        self.object = object
 
+Cinderella = Fairytale("evil stepmom", "shoe")
+Snow White = Fairytale("evil queen and stepmom", "apple")
+  
 
 
 class Animal:
