@@ -1,4 +1,4 @@
-# dunder methods start and end with __. Also called magic methods. 
+# dunder methods start and end with __. Also called magic methods. They are used with OOP
 
 
 # __name__ Every python file has a  __name__ variable. The main file being run has the value __main__
@@ -12,3 +12,8 @@ show_name()
 
 
 # __new__ create a new object 
+
+# __str__: no parameters. It makes it reader friendly
+
+class HappyDays:
+  def __str__(self)
