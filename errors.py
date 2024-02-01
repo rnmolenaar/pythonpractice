@@ -59,14 +59,7 @@ def function(a, b):
 
 ## Error types
 
-# KeyError when you call a key in a dictionary that does not exist
 
-TRex = dict(name = "Rexie", food = "meat", size = "big")
-
-print(TRex["age"]) # KeyError
-
-
-## common errors
 
 # AttributeError: attribute does not exist. iow a method does not exist
 
@@ -74,7 +67,12 @@ print(TRex["age"]) # KeyError
 
 # IndexError: the index is too high and does not exist
 
-# KeyError when you try to get something from a dictionary with a key that does not exist in that dict. (Similar to IndexError) 
+
+# KeyError when you call a key in a dictionary that does not exist (similar to IndexError)
+
+TRex = dict(name = "Rexie", food = "meat", size = "big")
+
+print(TRex["age"]) # KeyError
 
 # NameError: something hasn't been defined. Also happens when a module has not been imported yet and its methods are not yet available.
 
