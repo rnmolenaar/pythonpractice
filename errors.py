@@ -74,7 +74,10 @@ TRex = dict(name = "Rexie", food = "meat", size = "big")
 
 print(TRex["age"]) # KeyError
 
-# NameError: something hasn't been defined. Also happens when a module has not been imported yet and its methods are not yet available.
+# NameError: something hasn't been defined or there is a spelling mistae. Also happens when a module has not been imported yet and its methods are not yet available.
+
+birthplace = "Reykjavik"
+print(birtplace)
 
 # SyntaxError. Something is missing or something is wrong.
 101dalmatians = "many dogs" #syntax error because a variable can't start with a number
