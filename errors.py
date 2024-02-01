@@ -59,13 +59,14 @@ def function(a, b):
 
 ## Error types
 
-
-
 # AttributeError: attribute does not exist. iow a method does not exist
 
 [9, 2, 4].singsong()
 
 # IndexError: the index is too high and does not exist
+
+list5 = [1, 2, 5, 9]
+print(list5[7]) 
 
 
 # KeyError when you call a key in a dictionary that does not exist (similar to IndexError)
