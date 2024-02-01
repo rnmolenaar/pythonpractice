@@ -1,31 +1,16 @@
-# error types: syntax error because a variable can't start with a number
-101dalmatians = "many dogs"
+## try, except, else, finally. Try = test, except: take care of the error, else=what happens when there is no error, finally=happens regardless of whether there are errors
 
-## common errors
-
-# AttributeError: attribute does not exist. iow a method does not exist
-
-[9, 2, 4].singsong()
-
-# IndexError: the index is too high and does not exist
-
-# KeyError when you try to get something from a dictionary with a key that does not exist in that dict. (Similar to IndexError) 
-
-# NameError: something hasn't been defined. Also happens when a module has not been imported yet and its methods are not yet available.
-
-# SyntaxError. Something is missing
-
-#TypeError: wrong type is used. Something is used meant for a different type. 
-
-# ValueError: there is nothing wrong about the type but the value added is wrong
-
-float("this is indeed a string, so the correct type, but the value can't be converted to an integer")
-
-#ZeroDivisionError when you try to divive by 0
+try: 
+  print(something)
+except NameError:
+  print("Something needs to be defined:)
+except:
+print("There is a problem. Check your code")
 
 
-#######
 # when raising error messages
+
+
 
 if type(arg) is not str:
   raise TypeError("this must be an instance of str")
@@ -79,3 +64,30 @@ def function(a, b):
 TRex = dict(name = "Rexie", food = "meat", size = "big")
 
 print(TRex["age"]) # KeyError
+
+
+## common errors
+
+# AttributeError: attribute does not exist. iow a method does not exist
+
+[9, 2, 4].singsong()
+
+# IndexError: the index is too high and does not exist
+
+# KeyError when you try to get something from a dictionary with a key that does not exist in that dict. (Similar to IndexError) 
+
+# NameError: something hasn't been defined. Also happens when a module has not been imported yet and its methods are not yet available.
+
+# SyntaxError. Something is missing or something is wrong.
+101dalmatians = "many dogs" #syntax error because a variable can't start with a number
+
+#TypeError: wrong type is used. Something is used meant for a different type. 
+
+# ValueError: there is nothing wrong about the type but the value added is wrong
+
+float("this is indeed a string, so the correct type, but the value can't be converted to an integer")
+
+#ZeroDivisionError when you try to divive by 0
+
+
+#######
