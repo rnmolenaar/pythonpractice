@@ -285,7 +285,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "file.readlines() creates a list with each line", 
     "file.close() necessary to save space. You will need to open it again afterwards",
     " with open("filename.txt") as file:    file.read(). You don't have to close it anymore",
-    " f.__exit__()"
+    " f.__exit__ by default returns none()"
     "If you want to write to a file, add a w like so: ("filename.txt", "w") as file:", 
     "The original contents are overwritten with w",
     "Data types, text type", 
