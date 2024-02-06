@@ -30,7 +30,7 @@ pet = list(range(1,200))
 
 print(pet)
 
-##################built in methods for lists
+#########built in methods for lists
 
 ## general list methods
 
@@ -38,7 +38,6 @@ print(pet)
 
 languages = ["English", "Japanese", "Chinese", "French", "Romanian", "Japanese"]
 print(languages.count("Japanese")) # 2
-
 
 # .index() shows you where an item is 
 
