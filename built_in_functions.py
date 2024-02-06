@@ -127,6 +127,12 @@ file.read()
 
 happy = round(8/9, 3)
 
+# set(): to create a set out of something
+
+list = [ 1, 2, 5 ]
+
+set(list)
+
 # slice()
 
 # sorted() works with tuples or lists. It returns a copy, doesn't change the original itself. 
