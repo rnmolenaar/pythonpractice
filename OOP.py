@@ -51,7 +51,13 @@ Class Fairytale:
 Cinderella = Fairytale("evil stepmom", "shoe")
 Snow White = Fairytale("evil queen and stepmom", "apple")
   
+Class Province:   
+    def__init__(self, capital, famous_for)
+    self.capital = capital
+    self.famous_for - famous_for
 
+North_Holland = Province("Haarlem", "tulips")
+  
 
 class Animal:
     pass
