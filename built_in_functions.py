@@ -68,12 +68,9 @@ age = int(input("What is your age?: "))
 print("You are " +str(age) + " years old")
 
 
-
-
-#int() converts a float into an int by chopping of everything behind the decimal. It doesn't round up
+#int() converts a float into an int by chopping off everything behind the decimal. It doesn't round up
 
 change_to_integer = int(34.7262) # 34
-
 
 # Len + input
 
