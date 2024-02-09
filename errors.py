@@ -7,10 +7,7 @@ except NameError:
 except:
 print("There is a problem. Check your code")
 
-
 # when raising error messages
-
-
 
 if type(arg) is not str:
   raise TypeError("this must be an instance of str")
@@ -25,7 +22,7 @@ dictionary = {"Country": "Netherlands"]
 
 print(get(dictionary, "name"))
 
-# several except
+# several excepts
 
 def divide(a, b):
   try:
@@ -67,7 +64,6 @@ def function(a, b):
 
 list5 = [1, 2, 5, 9]
 print(list5[7]) 
-
 
 # KeyError when you call a key in a dictionary that does not exist (similar to IndexError)
 
