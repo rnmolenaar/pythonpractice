@@ -1,4 +1,4 @@
-# the yield keyword is similar to return. Yield is faster. It is used to creater a generator function. 
+# the yield keyword is similar to return. Yield is faster. It is used to create a generator function. 
 
 # A function that returns a generator that yields every month of the year
 def year():
@@ -21,7 +21,6 @@ def year():
     yield month
 
 # to toggle between two different possible answers. If it was white before, it's black next
-
 
 def chess_match():
     turn = "white"
