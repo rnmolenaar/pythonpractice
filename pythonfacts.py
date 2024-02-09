@@ -293,7 +293,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "To use SQL with Python, Python needs an SQL driver",
     "No Boolean in SQL", 
     "SQL COMMANDS IN CAPITALS", 
-    
+    " random() in random module returns a random float number between 0 and 1", 
     
     
     
