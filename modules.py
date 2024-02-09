@@ -53,12 +53,13 @@ result = math
 answer = math.sqrt(16384)
 print(answer)
 
-# random
+### random 
+
 
 # .choice() method: pick something random from a list
 
 
-# random number
+# random number done with randint method.
 import random
 
 print (random.randint(0, 60))
