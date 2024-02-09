@@ -130,7 +130,9 @@ list = [ 1, 2, 5 ]
 
 set(list)
 
-# slice()
+# slice() related to range(start, stop, step)
+
+
 
 # sorted() works with tuples or lists. It returns a copy, doesn't change the original itself. 
 #It sorts it by alphabet and numbers. if reverse=True it will change the order
