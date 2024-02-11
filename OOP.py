@@ -51,12 +51,20 @@ Class Fairytale:
 Cinderella = Fairytale("evil stepmom", "shoe")
 Snow White = Fairytale("evil queen and stepmom", "apple")
   
-Class Province:   
-    def__init__(self, capital, famous_for)
-    self.capital = capital
-    self.famous_for - famous_for
+class Plant:
+    def __init__(self, flowers, name, size):
+        self.flower =  flower
+        self.name = name
+        self.size = size
+        
+rose = Plant(True, "Rose", "medium")
 
-North_Holland = Province("Haarlem", "tulips")
+class Color:
+    def __init__(self, color, contrast_color):
+    self.color = color
+    self.contrast_color = contrast_color
+
+blue = Color("blue", "orange)
   
 
 class Animal:
