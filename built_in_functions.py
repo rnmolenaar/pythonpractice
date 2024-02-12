@@ -1,3 +1,5 @@
+
+
 # any() if any is truthy
 
 
@@ -72,7 +74,7 @@ print("You are " +str(age) + " years old")
 
 change_to_integer = int(34.7262) # 34
 
-# Len + input
+# len() + input
 
 hilde = len(input("what is your name? "))
 print(hilde)
