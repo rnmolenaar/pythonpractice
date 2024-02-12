@@ -43,6 +43,10 @@ print(reverse_string("this is not a palindrome"))
 
 # filter()
 
+# float()
+
+float("1.2") # 1.2
+
 # help() shows the documentation of modules, functions, classes, keywords. You don't need print() to have it shown
 
 import tkinter
@@ -143,9 +147,13 @@ set(list)
 
 # str() to type convert something to a string
 
+str(6.98) # "6.98"
+
 # tuple() to create a tuple
 
-# type() to see what data type it is 
+# type() to see what data type it is. Very helpful when you use modules you haven't used before. It tells you if something is from the module or a built in function in Python
+
+type(5) # int
 
 print(type(True))
 
