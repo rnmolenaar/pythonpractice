@@ -1,4 +1,5 @@
 #make a function where the inserted will be returned in capitalized letters
+# function("argument)
 
 def big_letters(insert):
     return f"{insert.upper()}!"
