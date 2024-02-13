@@ -294,6 +294,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "No Boolean in SQL", 
     "SQL COMMANDS IN CAPITALS", 
     " random() in random module returns a random float number between 0 and 1", 
+    "Jupyter= use the tab key to autocomplete",
     
     
     
