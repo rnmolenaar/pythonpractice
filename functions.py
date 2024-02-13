@@ -1,5 +1,5 @@
 #make a function where the inserted will be returned in capitalized letters
-# function("argument)
+# function(parameter)
 # return value is the output we get back
 
 def big_letters(insert):
