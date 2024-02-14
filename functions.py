@@ -40,6 +40,11 @@ def count_m(word):
              return days[num-1]
         return None
 
+# default argument for a parameter: if an argument is not provided
+
+def function_name(temperature=0):
+    return temperature
+
 # check if a list is empty
 
 def last_element(lst):
