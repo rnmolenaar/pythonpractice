@@ -117,8 +117,25 @@ for mach in range(machine):
 
 # map() accepts two arguments: a function and an iterable
 
-# min() to find the shortest thing
 
+# min and max to return a tuple
+
+def minmax(nums):
+    return (min(nums), max(nums))
+
+nums = (12, 123, 554, 1, 455, 9)
+
+print(minmax(nums))
+
+# max + abs
+def max_number(nums):
+    return max(abs(num) for num in nums)
+
+betra = [23, -38373, 17, 1]
+
+print(max_magnitude(betra))
+
+# args + sum
 
 
 # open() functions to read files. Parameters: file is mandatory. there are many others
