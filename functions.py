@@ -115,24 +115,6 @@ numbers_to_sort = [4, 2, 17, 1817, 3]
 
 sorted(numbers_to_sort)
 
-# min and max to return a tuple
-
-def minmax(nums):
-    return (min(nums), max(nums))
-
-nums = (12, 123, 554, 1, 455, 9)
-
-print(minmax(nums))
-
-# max + abs
-def max_number(nums):
-    return max(abs(num) for num in nums)
-
-betra = [23, -38373, 17, 1]
-
-print(max_magnitude(betra))
-
-# args + sum
 
 def even_numbers(*args):
     return sum(arg for arg in args if arg % 2 == 0 )
