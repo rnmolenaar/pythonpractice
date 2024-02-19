@@ -1,3 +1,6 @@
+# integers and floats are immutable objects (same goes for Booleans)2
+
+
 # + addition operator
 
 
