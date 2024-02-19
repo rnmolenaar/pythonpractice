@@ -42,6 +42,18 @@ print(slicing_names)
 
 city = "amsterdam".upper()
 
+# .lower()
+
+# .swapcase() lower case letters become upper case and the other way around
+
+song= "i LIKE DANCING IN THE SUN".swapcase()
+print(song)
+
+
+# .title() will capitalize the first letter of every word
+
+
+
 
 
  
