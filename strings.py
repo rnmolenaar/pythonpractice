@@ -34,4 +34,11 @@ print(slicing_names)
 3 # .replace() When you want to replace parts of a string
 
  string.replace(" ", "").lower()
+
+# .upper() to make everything uppercase
+
+city = "amsterdam".upper()
+
+
+
  
