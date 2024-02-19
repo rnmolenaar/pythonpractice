@@ -1,3 +1,6 @@
+### strings are immutable
+
+
 # string escape sequences
 # \n creates a new line
 #  \\ to create a backslash
