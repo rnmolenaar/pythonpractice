@@ -51,6 +51,8 @@ city = "amsterdam".upper()
 
 # .lower()
 
+# .strip() strips white space on both sides
+
 # .swapcase() lower case letters become upper case and the other way around
 
 song= "i LIKE DANCING IN THE SUN".swapcase()
