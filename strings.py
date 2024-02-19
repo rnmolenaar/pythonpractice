@@ -32,11 +32,18 @@ name = "Napoleon Bonaparte"
 slicing_names = name[::-2]
 print(slicing_names)
 
-# string methods. 
+### string methods. 
 
-3 # .replace() When you want to replace parts of a string
+# .capitalize() will capitalize only the first letter of a string
+
+# lstrip(removes all white space on the left side of the string
+
+
+# .replace() When you want to replace parts of a string
 
  string.replace(" ", "").lower()
+
+# .rstrip() removes all the white space on the right side of a string
 
 # .upper() to make everything uppercase
 
