@@ -50,6 +50,11 @@ print(slicing_names)
 city = "amsterdam".upper()
 
 # .lower()
+# .replace()
+
+tale ="onck upon a timk"
+
+print(tale.replace("k", "e"))
 
 # .strip() strips white space on both sides
 
