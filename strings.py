@@ -36,6 +36,10 @@ print(slicing_names)
 
 # .capitalize() will capitalize only the first letter of a string
 
+# .endswith() shows if a string ends with a certain something
+
+print("Oostenrijk".endswith("k"))
+
 # lstrip(removes all white space on the left side of the string
 
 
@@ -45,16 +49,18 @@ print(slicing_names)
 
 # .rstrip() removes all the white space on the right side of a string
 
-# .upper() to make everything uppercase
 
-city = "amsterdam".upper()
 
 # .lower()
 # .replace()
 
 tale ="onck upon a timk"
 
-print(tale.replace("k", "e"))
+print(tale.replace("k", "e"))"
+
+# .startswith() shows if something starts with something and gives back a Boolean
+
+"happy".startswith("h")
 
 # .strip() strips white space on both sides
 
@@ -66,6 +72,9 @@ print(song)
 
 # .title() will capitalize the first letter of every word
 
+# .upper() to make everything uppercase
+
+city = "amsterdam".upper()
 
 
 
