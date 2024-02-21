@@ -1,4 +1,6 @@
-#Lists start counting at 0, just like ranges
+#Lists start counting at 0, just like ranges. Can store multiple values. They are ordered and mutable. Different types can be added to a list
+# one item in the list is called an element
+# ARRAY is the synonym
 
 # return index of a list
 
@@ -30,7 +32,7 @@ pet = list(range(1,200))
 
 print(pet)
 
-#########built in methods for lists
+#########built in METHODS for lists. Different from string methods as lists are mutable
 
 ## general list methods
 
