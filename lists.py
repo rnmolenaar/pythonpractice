@@ -17,13 +17,15 @@ my_list = [0.5, "what", "nono", ["blabla", "yay"]]
 
 print("yelp" in my_list)
 
-# Slicing a list [start:stop"step}
+# Slicing a list [start:stop"step]
+
+list_name[1:11:2]
 
 #[0:] makes a copy of the list
 
 #[0::2] skip the end but add the second : to make sure it counts as step
 
-######### build in functions
+######### built in functions
 #len()
 
 #list() to create a list out of a range
