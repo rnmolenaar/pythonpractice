@@ -15,7 +15,7 @@ string_name += " friend".
 # multiply strings
 print("Happy birthday" * 20)
 
-#slicing a string
+#slicing a string (syntax same as for slicing a list)
 
 name = "Napoleon Bonaparte"
 slicing_names = name[0:12:4]
