@@ -71,6 +71,12 @@ print(total_moons)
 # fromkeys method
 start = dict.fromkeys(dictionary_name, 0)
 
+# Check if something is in a dictionary with in and not
+
+numbers = {1, 2, 7{
+
+6 in dictionary_name # False
+
 ### Dictionary comprehension { :  for    in    }
 
 #dictionary comprehension
@@ -158,11 +164,8 @@ print(start_solar_system)
 collections = {'stickers': 2, 'postcards': 9, 'fridge magnets': 40}
 collections.pop("stickers")
 
+
 # popitem() removes a random key from a dictionary
-
-
-
-
 
 #keys() returns the keys of the dictionary as a list 
 
