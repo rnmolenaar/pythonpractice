@@ -1,3 +1,4 @@
+# Dictionary is mutable and unordered
 #Make a dictionary
 character = {"name": "Smiley", "fan of": "River music", "Speaks": "A language"}
 
@@ -14,6 +15,12 @@ full_name = person["first"] + " " + person["last"]
 TRex = dict(name = "Rexie", food = "meat", size = "big")
 
 print(TRex["name"]) # Rexie
+
+# adding a value to a dictionary
+
+kings = {"France": "Louis", "England": "Edward"}
+
+kings["Spain"] = "Carlos"
 
 # running a for loop on the values in a dictionary. You only get the values with this
 
@@ -64,12 +71,14 @@ print(total_moons)
 # fromkeys method
 start = dict.fromkeys(dictionary_name, 0)
 
+### Dictionary comprehension { :  for    in    }
+
 #dictionary comprehension
 {num:("even" if num % 2 ==0 else "odd") for num in range(0, 20)
     
 # dict comprehension: zipping two dictionaries together
 
- list1 = ["city", "country", "continent"]
+list1 = ["city", "country", "continent"]
 list2 = ["Amsterdam", "Netherlands", "Europe"]
 
 answer = { list1[i]: list2[i] for i in range(0,3)}
@@ -151,7 +160,6 @@ collections.pop("stickers")
 
 # popitem() removes a random key from a dictionary
 
-### Dictionary comprehension { :  for    in    }
 
 
 
