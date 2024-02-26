@@ -1,5 +1,5 @@
 # Dictionary is mutable and unordered
-#Make a dictionary
+# dicionaries are sometimes called maps in other programming languages
 character = {"name": "Smiley", "fan of": "River music", "Speaks": "A language"}
 
 # How to add values of different keys together in a dictionary
@@ -171,7 +171,9 @@ collections.pop("stickers")
 
 # update() adds everything from the dictionary between () and adds it. You can overwrite what is there too
 
-# values() returns the values of the dictionary as a list
+# values() returns allthe values of the dictionary as a list
+
+dictionary.values()
 
 # items() returns both keys and values 
 
