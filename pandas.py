@@ -13,3 +13,7 @@ pd.Series(queens_regnant)
 1    Elizabeth I
 2        Mary II
 
+## series attributes
+
+# is_unique to check if there is only 1. Answer is a Boolean
+
