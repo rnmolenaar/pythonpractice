@@ -17,3 +17,6 @@ pd.Series(queens_regnant)
 
 # is_unique to check if there is only 1. Answer is a Boolean
 
+# parameters and arguments
+
+
