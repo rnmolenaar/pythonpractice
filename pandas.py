@@ -20,3 +20,14 @@ pd.Series(queens_regnant)
 # parameters and arguments
 
 
+# head and tails methods: pull out the first few or last few rows of a series. The default is 5
+
+# Python functions and pandas
+
+len(series_name)
+
+sorted(series_name)
+
+dict(series_name)
+
+# in looks in the index of a series, not the values
