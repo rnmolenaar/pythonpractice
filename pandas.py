@@ -31,3 +31,9 @@ sorted(series_name)
 dict(series_name)
 
 # in looks in the index of a series, not the values
+
+in series.index
+in series.values
+
+
+# sort_values() method is sorting by values instead of index
