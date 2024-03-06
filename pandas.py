@@ -37,3 +37,5 @@ in series.values
 
 
 # sort_values() method is sorting by values instead of index
+
+# accesssor: you used [] to extract from series
