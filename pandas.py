@@ -35,6 +35,10 @@ dict(series_name)
 in series.index
 in series.values
 
+# inloc and loc. Loc is for labels. iloc for the index. These are accessors
+
+planets.loc["Venus"]
+
 
 # sort_values() method is sorting by values instead of index
 
