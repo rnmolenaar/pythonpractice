@@ -40,6 +40,9 @@ in series.values
 planets.loc["Venus"]
 
 
+# value_counts methods to check how often a value exists in a series
+
+
 # sort_values() method is sorting by values instead of index
 
 # accesssor: you used [] to extract from series
