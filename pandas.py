@@ -46,3 +46,5 @@ planets.loc["Venus"]
 # sort_values() method is sorting by values instead of index
 
 # accesssor: you used [] to extract from series
+
+# some methods only for series and others for data frames
