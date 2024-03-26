@@ -1,4 +1,4 @@
-# dunder methods start and end with __. Also called magic methods. They are used with specific classes. Using dir() will show you which ones can be used with whatt class
+# dunder methods start and end with __. They are also called magic methods. They are used with specific classes. Using dir() will show you which ones can be used with whatt class
 
 
 # __name__ Every python file has a  __name__ variable. The main file being run has the value __main__
