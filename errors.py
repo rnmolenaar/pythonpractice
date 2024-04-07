@@ -37,7 +37,7 @@ def divide(a, b):
 
 divide(2,0)
 
-# example try/except block
+# example try/except/else block
 
 def divide(num1, num2):
     try: 
