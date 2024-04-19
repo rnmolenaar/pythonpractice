@@ -45,7 +45,7 @@ def test_iterable(iterable):
     While True:
     try:
         item = next(iterator)
-    except: StopIteration:
+    except: StopIterating:
         break
     else: 
         func(item)
