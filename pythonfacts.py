@@ -297,6 +297,7 @@ python_info = ["With random.choice(listname), you can pick a random item from a 
     "Jupyter= use the tab key to autocomplete",
    "You can add more methods to a string word.lstrip().rstrip(). This is called methods chaining",
    "Composition means that an object consists on multiple objects",
+   "use the python library pyodbc to integrate SQL with Python",
             
     
     
